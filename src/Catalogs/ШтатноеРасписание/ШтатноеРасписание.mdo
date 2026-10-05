@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ebbcd19-0dc1-4853-b5fd-c2349bb34d5f">
+  <producedTypes>
+    <objectType typeId="36c96471-9aa9-417e-ac20-f4b2ef7e060b" valueTypeId="cbb6c474-1d50-481e-aafc-50d53e4ec680"/>
+    <refType typeId="51fe321e-c607-4057-a07d-33997b7ea352" valueTypeId="239f6d6a-4829-4306-b205-95f3e0082ab2"/>
+    <selectionType typeId="fe496540-fe2e-409e-8cfc-22b2591a4c83" valueTypeId="60405e4f-5d63-4f82-a47c-da2fbbd12a8f"/>
+    <listType typeId="8528ffbc-8d5e-41bf-ac53-9bb0d2202d20" valueTypeId="b91bad77-cb18-497f-8905-f5ff53841910"/>
+    <managerType typeId="d9d3a220-343d-43ab-8df2-1165513d4c36" valueTypeId="8507eb84-932d-44fc-a78f-2ed756006c5e"/>
+  </producedTypes>
+  <name>ШтатноеРасписание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штатное расписание</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ШтатноеРасписание.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ШтатноеРасписание.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

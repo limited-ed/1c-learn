@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3836c27-33bf-482d-91aa-3a46136e1d3d">
+  <name>Настройка</name>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.ус_ВыбратьСтиль</content>
+</mdclass:Subsystem>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc97d8e3-f7af-4919-9ca4-790214b075ca">
+  <producedTypes>
+    <objectType typeId="3c1b0244-60d8-44e8-9b8e-d45c53f96cf9" valueTypeId="2a18e82d-94de-418a-b700-d1080f624f7f"/>
+    <refType typeId="39ccbed1-cdf5-42b3-b8f3-527678158464" valueTypeId="c31d59fd-c7e1-4958-b0e7-898e58d65e02"/>
+    <selectionType typeId="4899a02d-f785-46c6-83bd-ab60286bed75" valueTypeId="542c9ee2-2fea-4ee4-98fb-a66f2441ad9e"/>
+    <listType typeId="97fbc86b-401a-4a20-9296-20b4f32a86f2" valueTypeId="00e3d257-a146-45c7-ab2c-344e77c6edfb"/>
+    <managerType typeId="e02bda1c-528e-4475-9a2c-8a6d2fee2149" valueTypeId="038d0aaf-8612-4424-8859-529a27bc93f5"/>
+  </producedTypes>
+  <name>Родство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Родство</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Родство.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Родство.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="56dca1c4-6461-4d87-aa85-3990377804b3">
+      <name>Дочь</name>
+      <description>Дочь</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="ca9b18f4-049b-4e31-bf95-de96c2767cb1">
+      <name>Сын</name>
+      <description>Сын</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

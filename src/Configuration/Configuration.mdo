@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd854170-7407-44dd-920e-14eca9e56e5d">
+  <name>МагазинЭлектроники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Магазин электроники</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3e910740-efa8-45a7-9c86-135fdb2fa9c2"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b548dd3c-cbe5-422c-bc24-d16404066450"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="322aac95-a00c-4d53-be56-f7fef22bceba"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="1f92b920-1afa-471f-a5ff-2ea4bdede6cf"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="af6a9f13-a110-44fc-b499-d957e241a125"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e5bf25b0-802b-401c-ba14-c4ea469d815b"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="5cbf4b51-7aa6-43c0-b114-14bdec915a9f"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Ярос Роман Владимирович</vendor>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="a03eaea0-aaaf-465b-9124-4c6a53e3d580">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Кадры</subsystems>
+  <subsystems>Subsystem.Настройка</subsystems>
+  <subsystems>Subsystem.Номеклатура</subsystems>
+  <subsystems>Subsystem.Подсистема</subsystems>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <styles>Style.Античный</styles>
+  <styles>Style.Белый</styles>
+  <styles>Style.Зелёный</styles>
+  <styles>Style.Инфостарт</styles>
+  <styles>Style.Классический</styles>
+  <styles>Style.Красный</styles>
+  <styles>Style.Малиновый</styles>
+  <styles>Style.Молодёжный</styles>
+  <styles>Style.Нэжный</styles>
+  <styles>Style.Розовый</styles>
+  <styles>Style.Серый</styles>
+  <styles>Style.Синий</styles>
+  <styles>Style.Телеграм</styles>
+  <styles>Style.Фиолетовый</styles>
+  <styles>Style.Черный</styles>
+  <commonPictures>CommonPicture.Античный</commonPictures>
+  <commonPictures>CommonPicture.Белый</commonPictures>
+  <commonPictures>CommonPicture.Зелёный</commonPictures>
+  <commonPictures>CommonPicture.Инфостарт</commonPictures>
+  <commonPictures>CommonPicture.Классический</commonPictures>
+  <commonPictures>CommonPicture.Красный</commonPictures>
+  <commonPictures>CommonPicture.Малиновый</commonPictures>
+  <commonPictures>CommonPicture.Молодёжный</commonPictures>
+  <commonPictures>CommonPicture.Нэжный</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка</commonPictures>
+  <commonPictures>CommonPicture.Розовый</commonPictures>
+  <commonPictures>CommonPicture.Серый</commonPictures>
+  <commonPictures>CommonPicture.Синий</commonPictures>
+  <commonPictures>CommonPicture.Телеграм</commonPictures>
+  <commonPictures>CommonPicture.Фиолетовый</commonPictures>
+  <commonPictures>CommonPicture.Черный</commonPictures>
+  <commonCommands>CommonCommand.ус_ВыбратьСтиль</commonCommands>
+  <commonForms>CommonForm.ус_ФормаВыбораСтиля</commonForms>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Родство</catalogs>
+  <catalogs>Catalog.СвойстваНоменклатуры</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ТипыНоменклатуры</catalogs>
+  <catalogs>Catalog.ШтатноеРасписание</catalogs>
+  <documents>Document.Перемещение</documents>
+  <documents>Document.Приход</documents>
+  <documents>Document.Продажа</documents>
+  <informationRegisters>InformationRegister.ЗначениеСвойстНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.РегистрНакопленияНоменклатуры</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеСвойстваНоменклатуры</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

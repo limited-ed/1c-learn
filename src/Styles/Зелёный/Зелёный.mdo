@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17985bd0-9434-4b30-b209-0d0b5fdeef73">
+  <name>Зелёный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зелёный</value>
+  </synonym>
+</mdclass:Style>
