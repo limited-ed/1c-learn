@@ -73,10 +73,10 @@
       <objectType typeId="14904a32-0e1e-4e4c-986a-2521f9299c86" valueTypeId="8ecbf842-41e7-4122-b145-c7cfb1fb2af6"/>
       <rowType typeId="283568e7-e7a6-480b-99ae-37da39154223" valueTypeId="83f26971-05a9-4eb9-9fd2-047597cebaff"/>
     </producedTypes>
-    <name>ТабличнаяЧасть</name>
+    <name>СписокНоменклатуры</name>
     <synonym>
       <key>ru</key>
-      <value>Табличная часть</value>
+      <value>Список номенклатуры</value>
     </synonym>
     <attributes uuid="7d5fbe9b-5ee8-453d-a705-6fafb50cfb14">
       <name>Номенклатура</name>

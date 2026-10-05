@@ -169,7 +169,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:Table">
-    <name>ТабличнаяЧасть</name>
+    <name>СписокНоменклатуры</name>
     <id>13</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -177,7 +177,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ТабличнаяЧасть</segments>
+      <segments>Объект.СписокНоменклатуры</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
@@ -189,7 +189,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ТабличнаяЧасть.LineNumber</segments>
+        <segments>Объект.СписокНоменклатуры.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТабличнаяЧастьНомерСтрокиРасширеннаяПодсказка</name>
@@ -225,7 +225,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ТабличнаяЧасть.Номенклатура</segments>
+        <segments>Объект.СписокНоменклатуры.Номенклатура</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТабличнаяЧастьНоменклатураРасширеннаяПодсказка</name>
@@ -248,6 +248,10 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
+        <handlers>
+          <event>StartChoice</event>
+          <name>ТабличнаяЧастьНоменклатураНачалоВыбора</name>
+        </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
@@ -267,7 +271,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ТабличнаяЧасть.Количество</segments>
+        <segments>Объект.СписокНоменклатуры.Количество</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТабличнаяЧастьКоличествоРасширеннаяПодсказка</name>
@@ -300,16 +304,16 @@
       </extInfo>
     </items>
     <autoCommandBar>
-      <name>ТабличнаяЧастьКоманднаяПанель</name>
+      <name>СписокНоменклатурыКоманднаяПанель</name>
       <id>15</id>
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
     <searchStringAddition>
-      <name>ТабличнаяЧастьСтрокаПоиска</name>
+      <name>СписокНоменклатурыСтрокаПоиска</name>
       <id>17</id>
       <extendedTooltip>
-        <name>ТабличнаяЧастьСтрокаПоискаРасширеннаяПодсказка</name>
+        <name>СписокНоменклатурыСтрокаПоискаРасширеннаяПодсказка</name>
         <id>19</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -319,20 +323,20 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТабличнаяЧастьСтрокаПоискаКонтекстноеМеню</name>
+        <name>СписокНоменклатурыСтрокаПоискаКонтекстноеМеню</name>
         <id>18</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ТабличнаяЧасть</source>
+      <source>СписокНоменклатуры</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchStringAddition>
     <viewStatusAddition>
-      <name>ТабличнаяЧастьСостояниеПросмотра</name>
+      <name>СписокНоменклатурыСостояниеПросмотра</name>
       <id>20</id>
       <extendedTooltip>
-        <name>ТабличнаяЧастьСостояниеПросмотраРасширеннаяПодсказка</name>
+        <name>СписокНоменклатурыСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>22</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -342,21 +346,21 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТабличнаяЧастьСостояниеПросмотраКонтекстноеМеню</name>
+        <name>СписокНоменклатурыСостояниеПросмотраКонтекстноеМеню</name>
         <id>21</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ТабличнаяЧасть</source>
+      <source>СписокНоменклатуры</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
-      <name>ТабличнаяЧастьУправлениеПоиском</name>
+      <name>СписокНоменклатурыУправлениеПоиском</name>
       <id>23</id>
       <extendedTooltip>
-        <name>ТабличнаяЧастьУправлениеПоискомРасширеннаяПодсказка</name>
+        <name>СписокНоменклатурыУправлениеПоискомРасширеннаяПодсказка</name>
         <id>25</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -366,18 +370,18 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТабличнаяЧастьУправлениеПоискомКонтекстноеМеню</name>
+        <name>СписокНоменклатурыУправлениеПоискомКонтекстноеМеню</name>
         <id>24</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ТабличнаяЧасть</source>
+      <source>СписокНоменклатуры</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ТабличнаяЧастьРасширеннаяПодсказка</name>
+      <name>СписокНоменклатурыРасширеннаяПодсказка</name>
       <id>16</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -387,7 +391,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ТабличнаяЧастьКонтекстноеМеню</name>
+      <name>СписокНоменклатурыКонтекстноеМеню</name>
       <id>14</id>
       <autoFill>true</autoFill>
     </contextMenu>
