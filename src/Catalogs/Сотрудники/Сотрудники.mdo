@@ -210,6 +210,16 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="a9345fa1-e1a4-4549-84df-08af2c209051">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Роли</types>
+    </type>
+  </attributes>
   <tabularSections uuid="e97ab0f0-2afb-4fb8-9a52-c1f1742269da">
     <producedTypes>
       <objectType typeId="cae887c0-3a95-44b1-ba01-0757eb2f2908" valueTypeId="8bd39873-598e-4eff-ab84-10dee0489ba8"/>

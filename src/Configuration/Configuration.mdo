@@ -77,6 +77,9 @@
   <commonPictures>CommonPicture.Черный</commonPictures>
   <commonCommands>CommonCommand.ус_ВыбратьСтиль</commonCommands>
   <commonForms>CommonForm.ус_ФормаВыбораСтиля</commonForms>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.КатегорииКонтрагентов</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
@@ -87,10 +90,16 @@
   <catalogs>Catalog.ТипыНоменклатуры</catalogs>
   <catalogs>Catalog.ШтатноеРасписание</catalogs>
   <documents>Document.Перемещение</documents>
+  <documents>Document.ПодтверждениеОплаты</documents>
   <documents>Document.Приход</documents>
   <documents>Document.Продажа</documents>
+  <enums>Enum.ВидДоговора</enums>
+  <enums>Enum.ВидКонтрагента</enums>
+  <enums>Enum.ВидОплаты</enums>
+  <enums>Enum.Роли</enums>
   <informationRegisters>InformationRegister.ЗначениеСвойстНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.РегистрНакопленияНоменклатуры</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РезервНоменклатуры</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеСвойстваНоменклатуры</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

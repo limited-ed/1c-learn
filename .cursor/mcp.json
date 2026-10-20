@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "ai-edt": {
+      "url": "http://localhost:12250/mcp"
+    }
+  }
+}

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3584ea5-0719-4ae4-aecb-ac324572ff21">
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96c54879-1264-4d17-98f3-baa12b1a0e6f">
   <producedTypes>
-    <objectType typeId="e06728ce-9461-426b-a6cf-d0ae8c93ccd5" valueTypeId="867cdf17-8966-4f80-a08e-dcd10698df32"/>
-    <refType typeId="e7d46b07-a51e-4ef3-86e0-8e20dba12f4c" valueTypeId="00f31d19-5933-48a4-9636-468d2fdfa73f"/>
-    <selectionType typeId="b6b1b8d2-7f5b-4789-a3ff-c797c2676d5b" valueTypeId="835c7e77-05a0-4646-91c5-484256f3deaf"/>
-    <listType typeId="8b3b6852-41fa-408b-a7a0-4f8884e1da84" valueTypeId="f3385576-8812-4aab-ad42-a962642ae944"/>
-    <managerType typeId="cafaabef-4c94-4c3f-bc40-11584754247b" valueTypeId="ef02bdb2-08f4-4535-992d-cc1c0530b46b"/>
+    <objectType typeId="e0ded7b8-de11-45fb-8f78-082dfafbe542" valueTypeId="1799ae9f-d8cd-452d-b2c8-0c83c4be827c"/>
+    <refType typeId="56513e8a-64d4-4462-8aaf-5da96180f1dd" valueTypeId="a3392e96-14a3-4a20-8d50-0b7c973affd3"/>
+    <selectionType typeId="6a9598ea-43d6-4c08-802b-cee79cfda5f0" valueTypeId="c911dc3f-3922-412b-a479-8a9c1845bcff"/>
+    <listType typeId="67383eef-97c7-4580-9e01-4ff5fd2aec2e" valueTypeId="fdff7b6b-2898-46c3-b065-7c54862e166b"/>
+    <managerType typeId="3080c444-e4a3-46fa-a096-626dac7a7aed" valueTypeId="4a9e207b-51ba-46ba-beb1-63d536f0c2ac"/>
   </producedTypes>
   <name>Продажа</name>
   <synonym>
@@ -13,7 +13,6 @@
     <value>Продажа</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.Продажа.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -23,6 +22,149 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Продажа.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Продажа.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.РегистрНакопленияНоменклатуры</registerRecords>
+  <registerRecords>AccumulationRegister.РезервНоменклатуры</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="24dd2323-3233-405e-b478-83b0cc4d3746">
+    <name>ВидКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид контрагента</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидКонтрагента</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="161e0166-ea62-4652-be5d-8ec1763423df">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+  </attributes>
+  <attributes uuid="3f4ad236-6a3c-4f54-941b-ddfaac50ad29">
+    <name>Работник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="2229d680-7acb-4737-8249-c9f7d67805d6">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="9851009c-5c63-4574-af8d-a46be2ae792b">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="10d70321-0044-40c8-ab72-d89687951ffe">
+    <name>ФормаДокумента</name>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <forms uuid="ee923ead-8571-4211-a878-c090560eb3d7">
+    <name>ФормаСписка</name>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <tabularSections uuid="5efe5233-d7c8-4d2b-a98a-ad167179fef0">
+    <producedTypes>
+      <objectType typeId="1483d2f4-692b-4248-96a6-440b90072818" valueTypeId="a5032765-4780-4fce-83d4-fa188aec4c7d"/>
+      <rowType typeId="a2cd3c1a-3afa-42bc-8c2f-600ecedf66a4" valueTypeId="a542eb74-8b51-4b49-bf78-c84a8764d5c2"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="2875fb76-f4f2-475e-9436-0cdf06ed4e5f">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <fillChecking>ShowError</fillChecking>
+    </attributes>
+    <attributes uuid="97177856-e77d-4ee6-92fd-58e8e0a990eb">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <fillChecking>ShowError</fillChecking>
+    </attributes>
+    <attributes uuid="fefd65d8-cc56-4692-b537-511efca6ba50">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="2d8325c1-2e74-4816-b8e5-0402c9fd5e46">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+  </tabularSections>
+  <templates uuid="f3ffaab3-e5a7-44a2-9724-899a537b32a4">
+    <name>Счет</name>
+  </templates>
+  <templates uuid="dd6d0ec3-0e0d-4834-8d49-e484a17f4b15">
+    <name>СчетФактура</name>
+  </templates>
 </mdclass:Document>

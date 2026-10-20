@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58662b41-2d05-4cbf-ad98-ca8866d59177">
+  <producedTypes>
+    <objectType typeId="ee357080-fbe0-47e6-88c4-08888b77ce7d" valueTypeId="d198304e-bc9e-4e39-9ff6-ca7427067415"/>
+    <refType typeId="b5a0f55d-d9f4-48cc-92bb-354f1e666640" valueTypeId="42a7c76e-df73-4479-82ec-0270173bfef3"/>
+    <selectionType typeId="da3ad11d-65bf-49b9-869c-b23cd8a3753b" valueTypeId="223d9a0f-4dc0-4c61-baa6-4c07e7b3461c"/>
+    <listType typeId="9719d13f-73f6-402b-b3fa-826947ee857d" valueTypeId="1fffe50d-330f-4021-afdb-4ad48354cf22"/>
+    <managerType typeId="397cf538-05ae-4689-bf4b-fd274ecf3b59" valueTypeId="5a57a284-1411-4067-a563-3b55db066c1e"/>
+  </producedTypes>
+  <name>Валюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="991ca809-c106-4d6b-b69a-09e5f1222e57">
+      <name>Рубль</name>
+      <description>Российский рубль</description>
+      <code xsi:type="core:StringValue">
+        <value>643</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Валюты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Валюты.Form.ФормаСписка</defaultListForm>
+  <forms uuid="57059b47-b784-4820-a07d-bbd3ae4867a7">
+    <name>ФормаСписка</name>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <forms uuid="17544620-3608-4eae-95a3-5a08a9af32da">
+    <name>ФормаЭлемента</name>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+</mdclass:Catalog>

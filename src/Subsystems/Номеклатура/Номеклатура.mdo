@@ -13,4 +13,8 @@
   <content>ChartOfCharacteristicTypes.ДополнительныеСвойстваНоменклатуры</content>
   <content>InformationRegister.ЦеныНоменклатуры</content>
   <content>Document.Перемещение</content>
+  <content>Document.Продажа</content>
+  <content>AccumulationRegister.РезервНоменклатуры</content>
+  <content>Document.ПодтверждениеОплаты</content>
+  <content>Enum.ВидОплаты</content>
 </mdclass:Subsystem>

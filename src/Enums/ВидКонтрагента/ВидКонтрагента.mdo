@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="289329f1-1e10-4aab-ad63-5084282d765c">
+  <producedTypes>
+    <refType typeId="b0cffd58-5ddf-400d-83d1-762fc9910de0" valueTypeId="f9faad16-333c-4f7f-9b51-05325a5f3507"/>
+    <listType typeId="7db0a6cf-ab99-43bb-a63b-c8e9e39abe2c" valueTypeId="d1dac265-eb16-4120-89e7-ca48bd866203"/>
+    <managerType typeId="8903c5b2-7810-4ef5-b91f-f5d638e18416" valueTypeId="9c160d0c-e023-469a-b5fb-8d7dff60e5ad"/>
+  </producedTypes>
+  <name>ВидКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид контрагента</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="69f9f778-f299-4073-95d0-01ce0713d5e2">
+    <name>ЮридическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юридическое лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5460ba99-39fb-479d-a5a5-467de7c1d431">
+    <name>ИндивидуальныйПредприниматель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуальный предприниматель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9bd4767a-bac4-447d-a681-c91bbf91a1a5">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="811c1cb1-ec22-4869-ba20-756e2e0d508b">
+    <name>ГосударственныйОрган</name>
+    <synonym>
+      <key>ru</key>
+      <value>Государственный орган</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

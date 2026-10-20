@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca2dc8ac-3ed5-43c3-976b-cd1d68e3e329">
+  <producedTypes>
+    <selectionType typeId="35f04a88-1028-4db4-aab7-c413410c0bf0" valueTypeId="82163971-41e7-4aff-aa90-f6a20148fb3f"/>
+    <listType typeId="ac5bf724-d71b-4c93-af51-032712a62cf8" valueTypeId="e2a0f1f5-dff4-43c3-a516-b825b2f01ca6"/>
+    <managerType typeId="9e319512-60fb-4d63-814e-b26dcfa6a229" valueTypeId="95da9695-4783-476a-bed6-72405d31f7cd"/>
+    <recordSetType typeId="4a627684-6278-43f7-ac72-d2e3d987f172" valueTypeId="cb48eeba-adbb-4876-bbe1-121df1d0fb5d"/>
+    <recordKeyType typeId="8640c051-dbfa-45a5-82d9-72c773d40e52" valueTypeId="fb9cdbe6-954e-4ad5-9bca-a40c6a7282da"/>
+    <recordType typeId="96f63d51-b6db-458a-bf66-d78333446aee" valueTypeId="6ec41d53-061d-4986-93aa-fd2940d27959"/>
+  </producedTypes>
+  <name>РезервНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Резерв номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="8629644d-6957-4abb-b2db-ffc2279f847a">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <attributes uuid="7a458165-8701-43ca-a673-c5e88aa8610f">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+  </attributes>
+  <dimensions uuid="eba63a43-e2eb-4115-ae73-2acc81fcaa7c">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="24f202ed-420e-44e8-a5f1-bfa3ccfb498a">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+  </dimensions>
+</mdclass:AccumulationRegister>

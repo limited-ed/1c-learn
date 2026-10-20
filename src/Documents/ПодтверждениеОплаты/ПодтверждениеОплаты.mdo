@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf7c677f-45b1-45ce-872e-cc9f9aaceb30">
+  <producedTypes>
+    <objectType typeId="e2b69f42-a7d2-43af-b7c8-7d74d6c951ba" valueTypeId="774b4062-0f7d-46ae-ae08-df6d1c0beca1"/>
+    <refType typeId="6d62a7a1-df1a-4777-8896-710cc243836a" valueTypeId="d4c08356-5786-4db3-87d9-5f4fee36587b"/>
+    <selectionType typeId="046a27b3-b3e0-4006-96a0-9a460b304f9d" valueTypeId="2ad99364-a098-4227-a3d9-f160beb699c5"/>
+    <listType typeId="1fa89dbb-7c49-4986-9b02-3b49fb815e95" valueTypeId="72b32030-58d1-43f6-abd5-a8a13de9c9db"/>
+    <managerType typeId="4c960a81-c852-4569-b743-cd869a931496" valueTypeId="a2825d8c-639e-4d1d-838c-7897a13546d8"/>
+  </producedTypes>
+  <name>ПодтверждениеОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подтверждение оплаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.Продажа</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПодтверждениеОплаты.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ПодтверждениеОплаты.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="af48ac6f-8320-4a68-af06-16db294a96f4">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ-основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Продажа</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="bff6fa01-2111-4957-9ccc-46ca616bbf1d">
+    <name>ВидОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид оплаты</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидОплаты</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="3ca3a040-028e-48c8-a5e7-3e9afa471f22">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="ab9bbe92-b654-4599-af7e-d4b13208ef9c">
+    <name>ДатаОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата оплаты</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="4480e79e-72e5-4731-9782-9e717994f376">
+    <name>ФормаДокумента</name>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <forms uuid="b0ad0daf-9c67-4d67-9852-c1d6c680c721">
+    <name>ФормаСписка</name>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+</mdclass:Document>

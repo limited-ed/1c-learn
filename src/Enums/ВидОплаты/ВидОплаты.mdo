@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d5d5231-fa60-4336-8840-1ba3d07b5b9e">
+  <producedTypes>
+    <refType typeId="0354f649-75fb-4922-8f39-db449814c714" valueTypeId="82564926-6161-4fcf-a4c4-c1506b4a265b"/>
+    <listType typeId="f25b6c47-2c9d-4349-a98e-164882a52e23" valueTypeId="d6f6f1f8-c4a8-48fd-a33a-baf6c7ea98fc"/>
+    <managerType typeId="6c89b171-baa9-48f4-ba0f-40068f7fe64b" valueTypeId="3df16ab9-2b1f-4a32-946d-ed6dcc692138"/>
+  </producedTypes>
+  <name>ВидОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид оплаты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="96c99164-5c37-498d-9cd4-6ed0406dc13e">
+    <name>КассовыйОрдер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кассовый ордер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="72f55d06-0645-415a-bb23-f227edf8fed9">
+    <name>БезналичныйРасчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безналичный расчет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

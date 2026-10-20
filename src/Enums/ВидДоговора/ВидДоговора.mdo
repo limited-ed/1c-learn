@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e35c4223-5458-48d4-9840-eecd241f1225">
+  <producedTypes>
+    <refType typeId="b22d160d-543c-471a-9fb4-432d767e0a2b" valueTypeId="f2a81ac3-074d-4be2-af4a-689077f5e374"/>
+    <listType typeId="932a28aa-4db5-44c9-9141-6650ed593ad1" valueTypeId="42b02aa5-2020-4f9b-b85d-5fe571f0499f"/>
+    <managerType typeId="afa5c3c7-7a12-424a-8c33-35efaf1e2103" valueTypeId="12c23c1c-7ed8-456d-a0b3-e2c478481695"/>
+  </producedTypes>
+  <name>ВидДоговора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид договора</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="badecc4a-83da-4d1f-9892-93c98423a3c8">
+    <name>СПокупателем</name>
+    <synonym>
+      <key>ru</key>
+      <value>С покупателем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f6b2eba-ef63-44eb-91fa-cb272be41181">
+    <name>СПоставщиком</name>
+    <synonym>
+      <key>ru</key>
+      <value>С поставщиком</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45a9c922-8f0e-4662-b3a7-75c8939bb18c">
+    <name>СКомиссионером</name>
+    <synonym>
+      <key>ru</key>
+      <value>С комиссионером</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc6a5306-1fb6-4770-8f3c-426c97483dd6">
+    <name>СКомитентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>С комитентом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="546523dd-deee-407b-9bbe-b718aff73cf1">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
