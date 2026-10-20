@@ -195,6 +195,21 @@
     <use>ForFolderAndItem</use>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="34974f35-bbcd-4397-a40e-cd23a1a0ca9a">
+    <name>ИдентификаторПользователяИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пользователя ИБ</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="e97ab0f0-2afb-4fb8-9a52-c1f1742269da">
     <producedTypes>
       <objectType typeId="cae887c0-3a95-44b1-ba01-0757eb2f2908" valueTypeId="8bd39873-598e-4eff-ab84-10dee0489ba8"/>
