@@ -85,48 +85,6 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ВидКонтрагента</name>
-    <id>7</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВидКонтрагента</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>ВидКонтрагентаРасширеннаяПодсказка</name>
-      <id>9</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ВидКонтрагентаКонтекстноеМеню</name>
-      <id>8</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-      <textSize>Normal</textSize>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormField">
     <name>Контрагент</name>
     <id>10</id>
     <visible>true</visible>
@@ -137,10 +95,6 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Контрагент</segments>
     </dataPath>
-    <handlers>
-      <event>OnChange</event>
-      <name>КонтрагентПриИзменении</name>
-    </handlers>
     <extendedTooltip>
       <name>КонтрагентРасширеннаяПодсказка</name>
       <id>12</id>

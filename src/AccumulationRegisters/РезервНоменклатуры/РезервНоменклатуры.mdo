@@ -60,4 +60,14 @@
       <types>CatalogRef.Склады</types>
     </type>
   </dimensions>
+  <dimensions uuid="76e1f611-d02c-4781-bde2-019371b7a5cb">
+    <name>ДокументПродажа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ продажи</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Продажа</types>
+    </type>
+  </dimensions>
 </mdclass:AccumulationRegister>

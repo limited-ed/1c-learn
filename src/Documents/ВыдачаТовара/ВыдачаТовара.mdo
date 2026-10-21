@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac712c6f-831e-4b9d-8b0a-ea7dd699ec03">
+  <producedTypes>
+    <objectType typeId="2287c6c6-a1b4-4357-a887-784191617ea1" valueTypeId="fa43dd1d-1b93-41cc-960a-b701d03ffbef"/>
+    <refType typeId="627cd43c-23a1-475c-ac8b-79d755b24183" valueTypeId="8b57e1d0-b16c-4e7f-a11d-756a22cbe409"/>
+    <selectionType typeId="e311aba7-c640-4c60-935b-b3e1a6b86698" valueTypeId="aa138676-7922-4009-aeb1-529a646e8efa"/>
+    <listType typeId="4a9e944a-30cb-4bb4-93fd-ab2d29c35b31" valueTypeId="dfe56d32-5eaa-47b8-9017-86210232c63d"/>
+    <managerType typeId="592db5ee-2387-46ac-8133-74eb6972608a" valueTypeId="a91c2655-4062-4510-86e1-703ff6a5ccff"/>
+  </producedTypes>
+  <name>ВыдачаТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выдача товара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.ПодтверждениеОплаты</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВыдачаТовара.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ВыдачаТовара.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.РезервНоменклатуры</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="9091734a-f445-44e0-b62f-356232a90917">
+    <name>ДокументПродажа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ продажи</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Продажа</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="0fcd67f0-0119-453b-b94b-0e4000918534">
+    <name>Кладовщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кладовщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+  </attributes>
+  <forms uuid="ae8830a5-d1d5-4162-b1ad-8f9a93a30b2d">
+    <name>ФормаДокумента</name>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <forms uuid="6842075a-9a78-4664-89be-2089e393daf3">
+    <name>ФормаСписка</name>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <tabularSections uuid="5e826a4b-e4ad-4b87-ac89-88b5e2e350a7">
+    <producedTypes>
+      <objectType typeId="02c7cce7-3481-49d0-9d13-6a0a1bbfaecc" valueTypeId="a083dc03-4028-4aa1-938b-9b23e414fe9d"/>
+      <rowType typeId="7021cac1-ed36-4ea5-a623-9886a6cd2777" valueTypeId="c1763537-f516-4dcc-a1f4-8a49380f8dd2"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="438a3a04-ca31-4653-9f6a-d5369d690110">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <fillChecking>ShowError</fillChecking>
+    </attributes>
+    <attributes uuid="a949f51b-8d2f-4015-9fc5-38ab5f8d81b2">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <fillChecking>ShowError</fillChecking>
+    </attributes>
+    <attributes uuid="fed25382-dd39-4189-b744-b13ba206d40f">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="ab3edb80-3c6f-41a5-8582-7100601202be">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+  </tabularSections>
+  <templates uuid="f5824ac6-55a8-40ae-b71b-99b84bb966f9">
+    <name>АктПриемаПередачи</name>
+  </templates>
+</mdclass:Document>

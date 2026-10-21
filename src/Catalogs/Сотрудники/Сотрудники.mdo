@@ -107,6 +107,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Сотрудники.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Сотрудники.Form.ФормаСписка</defaultListForm>
   <attributes uuid="19829251-6d39-438d-844b-f3dbf64ec469">
     <name>Должность</name>
@@ -271,5 +272,9 @@
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0d1f8c3a-d91f-4d1e-b5a6-a853269e4fce">
+    <name>ФормаЭлемента</name>
+    <usePurposes>PersonalComputer</usePurposes>
   </forms>
 </mdclass:Catalog>

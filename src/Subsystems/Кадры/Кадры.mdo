@@ -13,4 +13,7 @@
   <content>Catalog.Подразделения</content>
   <content>Catalog.Сотрудники</content>
   <content>Catalog.ШтатноеРасписание</content>
+  <content>CommonForm.ФормаВыбораПользователяИБ</content>
+  <content>Role.Администратор</content>
+  <content>Role.КадровыйОтдел</content>
 </mdclass:Subsystem>

@@ -3,4 +3,5 @@
   <name>Настройка</name>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonCommand.ус_ВыбратьСтиль</content>
+  <content>Role.Администратор</content>
 </mdclass:Subsystem>

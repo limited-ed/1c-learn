@@ -17,4 +17,7 @@
   <content>Catalog.КатегорииКонтрагентов</content>
   <content>Catalog.Валюты</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Role.Администратор</content>
+  <content>Role.Бухгалтер</content>
+  <content>Role.МенеджерПоПродажам</content>
 </mdclass:Subsystem>

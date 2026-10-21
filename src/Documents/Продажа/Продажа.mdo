@@ -28,17 +28,6 @@
   <registerRecords>AccumulationRegister.РезервНоменклатуры</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="24dd2323-3233-405e-b478-83b0cc4d3746">
-    <name>ВидКонтрагента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Вид контрагента</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ВидКонтрагента</types>
-    </type>
-    <fillChecking>ShowError</fillChecking>
-  </attributes>
   <attributes uuid="161e0166-ea62-4652-be5d-8ec1763423df">
     <name>Контрагент</name>
     <synonym>

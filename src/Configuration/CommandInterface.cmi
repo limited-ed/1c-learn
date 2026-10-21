@@ -3,7 +3,6 @@
   <subsystemsOrder>
     <subsystems>Subsystem.Кадры</subsystems>
     <subsystems>Subsystem.Номеклатура</subsystems>
-    <subsystems>Subsystem.Подсистема</subsystems>
     <subsystems>Subsystem.Справочники</subsystems>
     <subsystems>Subsystem.Настройка</subsystems>
   </subsystemsOrder>

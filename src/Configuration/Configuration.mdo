@@ -42,7 +42,6 @@
   <subsystems>Subsystem.Кадры</subsystems>
   <subsystems>Subsystem.Настройка</subsystems>
   <subsystems>Subsystem.Номеклатура</subsystems>
-  <subsystems>Subsystem.Подсистема</subsystems>
   <subsystems>Subsystem.Справочники</subsystems>
   <styles>Style.Античный</styles>
   <styles>Style.Белый</styles>
@@ -75,8 +74,14 @@
   <commonPictures>CommonPicture.Телеграм</commonPictures>
   <commonPictures>CommonPicture.Фиолетовый</commonPictures>
   <commonPictures>CommonPicture.Черный</commonPictures>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Бухгалтер</roles>
+  <roles>Role.КадровыйОтдел</roles>
+  <roles>Role.Кладовщик</roles>
+  <roles>Role.МенеджерПоПродажам</roles>
   <commonCommands>CommonCommand.ус_ВыбратьСтиль</commonCommands>
   <commonForms>CommonForm.ус_ФормаВыбораСтиля</commonForms>
+  <commonForms>CommonForm.ФормаВыбораПользователяИБ</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.КатегорииКонтрагентов</catalogs>
@@ -89,6 +94,7 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ТипыНоменклатуры</catalogs>
   <catalogs>Catalog.ШтатноеРасписание</catalogs>
+  <documents>Document.ВыдачаТовара</documents>
   <documents>Document.Перемещение</documents>
   <documents>Document.ПодтверждениеОплаты</documents>
   <documents>Document.Приход</documents>

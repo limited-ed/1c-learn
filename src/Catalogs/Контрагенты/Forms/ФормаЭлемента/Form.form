@@ -526,6 +526,34 @@
           <textSize>Normal</textSize>
         </extInfo>
       </items>
+      <items xsi:type="form:FormField">
+        <name>ФИОРуководителя</name>
+        <id>72</id>
+        <title>
+          <key>ru</key>
+          <value>ФИО руководителя</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ФИОРуководителя</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ФИОРуководителяРасширеннаяПодсказка</name>
+          <id>73</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>InputField</type>
+        <extInfo xsi:type="form:InputFieldExtInfo"/>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

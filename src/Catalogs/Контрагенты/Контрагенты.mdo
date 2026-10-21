@@ -242,6 +242,19 @@
       <field>Catalog.Контрагенты.StandardAttribute.Ref</field>
     </choiceParameterLinks>
   </attributes>
+  <attributes uuid="d15b2800-5cd1-48dc-b8ca-d2217fba516d">
+    <name>ФИОРуководителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО руководителя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
   <forms uuid="943cb7d3-6154-44b7-9f2b-8c13c86a7d28">
     <name>ФормаЭлемента</name>
     <usePurposes>PersonalComputer</usePurposes>
