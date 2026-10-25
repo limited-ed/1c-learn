@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65a0ba81-e7be-4bf1-93a3-34849f317d95">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65a0ba81-e7be-4bf1-93a3-34849f317d95">
   <producedTypes>
     <objectType typeId="4f49b7a0-c091-4e47-8ddd-7d7e00cbe160" valueTypeId="2f6db657-1bb3-483b-9c97-7b728653a8f6"/>
     <refType typeId="b7bd65f8-e42d-4b39-8150-003bc2b218f7" valueTypeId="a993a421-a447-41cb-843a-16127d03a296"/>
@@ -52,6 +52,60 @@
       <types>CatalogRef.Валюты</types>
     </type>
     <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="ece20aba-1bf1-4b94-ad70-cfbf4d089775">
+    <name>НомерДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер договора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="914f6f89-abcb-49d2-a712-9599772cb2dd">
+    <name>ДатаЗаключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата заключения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="57ad7562-56ff-49a7-90a5-614e10726cea">
+    <name>ДатаДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата действия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="1ea34613-04f0-43c7-97c0-cfc0bad0d17f">
     <name>ФормаЭлемента</name>

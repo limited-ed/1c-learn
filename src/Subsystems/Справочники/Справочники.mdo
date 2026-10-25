@@ -14,7 +14,6 @@
   <content>Catalog.Контрагенты</content>
   <content>Enum.ВидКонтрагента</content>
   <content>Enum.ВидДоговора</content>
-  <content>Catalog.КатегорииКонтрагентов</content>
   <content>Catalog.Валюты</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>Role.Администратор</content>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c42e9e2-00c5-495b-af6b-3dff98ca5266">
+  <producedTypes>
+    <objectType typeId="9399fa5e-2a48-4ee9-b352-683f2b3d6080" valueTypeId="80d4b5ce-1a85-49d4-a7a7-10e30aefa065"/>
+    <managerType typeId="e45312ef-1e53-49df-b276-b0f51a43e382" valueTypeId="e88447cb-b67b-4ba8-88ba-a5004c10ddc3"/>
+  </producedTypes>
+  <name>ЗаполнениеКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗаполнениеКонтрагентов.Form.Форма</defaultForm>
+  <forms uuid="cdb8f871-c9d6-4916-bb00-dd79c518dc02">
+    <name>Форма</name>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

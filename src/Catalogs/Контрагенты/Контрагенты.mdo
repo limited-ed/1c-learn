@@ -42,16 +42,6 @@
     </type>
     <fillChecking>ShowError</fillChecking>
   </attributes>
-  <attributes uuid="79e24e66-16dd-447c-a60b-f749abca5cc2">
-    <name>Категория</name>
-    <synonym>
-      <key>ru</key>
-      <value>Категория</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.КатегорииКонтрагентов</types>
-    </type>
-  </attributes>
   <attributes uuid="98ae9aba-885b-4940-9be6-3d6ac2dc0d77">
     <name>ИНН</name>
     <synonym>

@@ -9,17 +9,11 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Номенклатура</content>
   <content>Document.Приход</content>
-  <content>AccumulationRegister.РегистрНакопленияНоменклатуры</content>
-  <content>ChartOfCharacteristicTypes.ДополнительныеСвойстваНоменклатуры</content>
   <content>InformationRegister.ЦеныНоменклатуры</content>
   <content>Document.Перемещение</content>
-  <content>Document.Продажа</content>
-  <content>AccumulationRegister.РезервНоменклатуры</content>
-  <content>Document.ПодтверждениеОплаты</content>
   <content>Enum.ВидОплаты</content>
   <content>Role.Администратор</content>
   <content>Role.Бухгалтер</content>
   <content>Role.МенеджерПоПродажам</content>
-  <content>Document.ВыдачаТовара</content>
   <content>Role.Кладовщик</content>
 </mdclass:Subsystem>

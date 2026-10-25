@@ -19,10 +19,11 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <levelCount>2</levelCount>
+  <hierarchical>true</hierarchical>
+  <levelCount>3</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -83,6 +84,98 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="3c4d7621-e8ea-40f7-b2d6-165faa958b7b">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2ac2bb55-4e1c-427b-8705-8246a49538c4">
+    <name>Бренд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бренд</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b901bf43-628f-4046-b3ef-1971b82e567e">
+    <producedTypes>
+      <objectType typeId="54e495a0-2f88-4587-bee0-1ded41f084b8" valueTypeId="6bf82265-3d42-40ee-9c61-f2c1c046c433"/>
+      <rowType typeId="70755658-7287-4846-96d8-e22e2870f9d2" valueTypeId="fd55605b-a6d9-4ca1-b2ba-dfc44b8633c7"/>
+    </producedTypes>
+    <name>Фотографии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фотографии</value>
+    </synonym>
+    <attributes uuid="d944b4a6-0eaa-475b-be82-46028f0e221f">
+      <name>Фото</name>
+      <synonym>
+        <key>ru</key>
+        <value>Фото</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="9b93572c-8762-490e-be4c-fce6fca684dc">
+      <name>ИмяФайла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя файла</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f65efb2f-633c-4c4d-a8ab-a7525bd979ce">
+      <name>Основное</name>
+      <synonym>
+        <key>ru</key>
+        <value>Основное</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
   <forms uuid="04078ff8-279b-4b2b-bd07-9d23e217d7a3">
     <name>ФормаЭлемента</name>
     <synonym>

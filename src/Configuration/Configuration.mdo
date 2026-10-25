@@ -39,9 +39,11 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.ЗаполнениеДанными</subsystems>
   <subsystems>Subsystem.Кадры</subsystems>
   <subsystems>Subsystem.Настройка</subsystems>
   <subsystems>Subsystem.Номеклатура</subsystems>
+  <subsystems>Subsystem.Продажа</subsystems>
   <subsystems>Subsystem.Справочники</subsystems>
   <styles>Style.Античный</styles>
   <styles>Style.Белый</styles>
@@ -68,6 +70,7 @@
   <commonPictures>CommonPicture.Молодёжный</commonPictures>
   <commonPictures>CommonPicture.Нэжный</commonPictures>
   <commonPictures>CommonPicture.ОбщаяКартинка</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
   <commonPictures>CommonPicture.Розовый</commonPictures>
   <commonPictures>CommonPicture.Серый</commonPictures>
   <commonPictures>CommonPicture.Синий</commonPictures>
@@ -84,7 +87,6 @@
   <commonForms>CommonForm.ФормаВыбораПользователяИБ</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
-  <catalogs>Catalog.КатегорииКонтрагентов</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
@@ -103,6 +105,8 @@
   <enums>Enum.ВидКонтрагента</enums>
   <enums>Enum.ВидОплаты</enums>
   <enums>Enum.Роли</enums>
+  <dataProcessors>DataProcessor.ЗаполнениеКонтрагентов</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнениеНоменклатуры</dataProcessors>
   <informationRegisters>InformationRegister.ЗначениеСвойстНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.РегистрНакопленияНоменклатуры</accumulationRegisters>
