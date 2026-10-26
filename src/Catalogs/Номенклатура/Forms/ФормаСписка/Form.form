@@ -85,6 +85,42 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
+      <name>Бренд</name>
+      <id>28</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Бренд</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>БрендРасширеннаяПодсказка</name>
+        <id>30</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>БрендКонтекстноеМеню</name>
+        <id>29</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Auto</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>Наименование</name>
       <id>19</id>
       <visible>true</visible>
@@ -108,6 +144,42 @@
       <contextMenu>
         <name>НаименованиеКонтекстноеМеню</name>
         <id>20</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Auto</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Артикул</name>
+      <id>25</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Артикул</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>АртикулРасширеннаяПодсказка</name>
+        <id>27</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>АртикулКонтекстноеМеню</name>
+        <id>26</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
@@ -326,10 +398,11 @@
 	СписокНоменклатура.Комментарий КАК Комментарий,
 	СписокНоменклатура.Предопределенный КАК Предопределенный,
 	СписокНоменклатура.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных,
-	ЦеныНоменклатуры.Цена КАК Цена
+	ЦеныНоменклатуры.Цена КАК Цена,
+	СписокНоменклатура.Модель КАК Модель,
+	СписокНоменклатура.Бренд КАК Бренд
 ИЗ
-Справочник.Номенклатура КАК СписокНоменклатура
-	
+	Справочник.Номенклатура КАК СписокНоменклатура
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЦеныНоменклатуры.СрезПоследних(,) КАК ЦеныНоменклатуры
 		ПО ЦеныНоменклатуры.Номенклатура = СписокНоменклатура.Ссылка</queryText>
       <mainTable>Catalog.Номенклатура</mainTable>
@@ -381,6 +454,26 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Номенклатура</dataPath>
         <field>Номенклатура</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Модель</dataPath>
+        <field>Модель</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Бренд</dataPath>
+        <field>Бренд</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Фотографии</dataPath>
+        <field>Фотографии</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Родитель</dataPath>
+        <field>Родитель</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЭтоГруппа</dataPath>
+        <field>ЭтоГруппа</field>
       </fields>
       <parameters>
         <name>Период</name>

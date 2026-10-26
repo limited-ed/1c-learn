@@ -23,11 +23,11 @@
     <representation>Auto</representation>
   </items>
   <items xsi:type="form:FormField">
-    <name>ПланДобавления</name>
+    <name>КодОбработки</name>
     <id>3</id>
     <title>
       <key>ru</key>
-      <value>Что будет добавлено</value>
+      <value>Состав заполнения</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -35,10 +35,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ПланДобавления</segments>
+      <segments>КодОбработки</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПланДобавленияРасширеннаяПодсказка</name>
+      <name>КодОбработкиРасширеннаяПодсказка</name>
       <id>4</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -87,10 +87,10 @@
     <main>true</main>
   </attributes>
   <attributes>
-    <name>ПланДобавления</name>
+    <name>КодОбработки</name>
     <title>
       <key>ru</key>
-      <value>Что будет добавлено</value>
+      <value>Состав заполнения</value>
     </title>
     <id>2</id>
     <valueType>
@@ -108,14 +108,18 @@
     <name>Заполнить</name>
     <title>
       <key>ru</key>
-      <value>Добавить номенклатуру</value>
+      <value>Заполнить номенклатуру</value>
     </title>
     <id>5</id>
+    <use>
+      <common>true</common>
+    </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>Заполнить</name>
       </handler>
     </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

@@ -19,4 +19,6 @@
   <content>Role.Администратор</content>
   <content>Role.Бухгалтер</content>
   <content>Role.МенеджерПоПродажам</content>
+  <content>Constant.РежимНалогообложения</content>
+  <content>CommonForm.ФормаКонстант</content>
 </mdclass:Subsystem>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2ee1f88-c167-40ce-aa48-cba3fe9847f0">
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c47e4638-5c20-47a6-b046-fc8befa9aa4e">
   <producedTypes>
-    <objectType typeId="9f8e5590-92ec-40f4-89c5-df450f4eb909" valueTypeId="e0e7fcbc-11be-4e90-882c-a1426974a18c"/>
-    <managerType typeId="c7ca208a-aeeb-4c88-b1f7-31ae4bd8acb5" valueTypeId="85660895-c54b-403d-ad1e-a57194d39b44"/>
+    <objectType typeId="ea26db85-0e13-48fd-b757-921025c2cb81" valueTypeId="0dd2189c-aeec-45b9-a78e-13d1c95a7089"/>
+    <managerType typeId="b82314af-3753-4116-bd64-6d1020435cfb" valueTypeId="6625f8be-f8ce-4666-93d6-6b0d96716fc0"/>
   </producedTypes>
   <name>ЗаполнениеНоменклатуры</name>
   <synonym>
@@ -11,8 +11,20 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ЗаполнениеНоменклатуры.Form.Форма</defaultForm>
-  <forms uuid="89d017db-8a6d-419f-b274-28790cc1d1d7">
+  <forms uuid="71e9804c-f610-4edf-b1eb-a31de94d9f59">
     <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
   </forms>
+  <templates uuid="069f0bd0-510b-48bc-8d56-fbbb38c80aa1">
+    <name>ДанныеЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные заполнения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
 </mdclass:DataProcessor>

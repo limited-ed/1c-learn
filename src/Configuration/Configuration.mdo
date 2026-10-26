@@ -83,8 +83,10 @@
   <roles>Role.Кладовщик</roles>
   <roles>Role.МенеджерПоПродажам</roles>
   <commonCommands>CommonCommand.ус_ВыбратьСтиль</commonCommands>
+  <constants>Constant.РежимНалогообложения</constants>
   <commonForms>CommonForm.ус_ФормаВыбораСтиля</commonForms>
   <commonForms>CommonForm.ФормаВыбораПользователяИБ</commonForms>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
@@ -104,6 +106,7 @@
   <enums>Enum.ВидДоговора</enums>
   <enums>Enum.ВидКонтрагента</enums>
   <enums>Enum.ВидОплаты</enums>
+  <enums>Enum.РежимНалогооблажения</enums>
   <enums>Enum.Роли</enums>
   <dataProcessors>DataProcessor.ЗаполнениеКонтрагентов</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеНоменклатуры</dataProcessors>

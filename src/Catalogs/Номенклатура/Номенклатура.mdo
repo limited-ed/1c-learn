@@ -32,7 +32,6 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.Номенклатура.Form.ФормаСписка</defaultListForm>
   <attributes uuid="5f84fe94-4307-4382-a19b-70a30207effd">
     <name>Артикул</name>
     <synonym>
