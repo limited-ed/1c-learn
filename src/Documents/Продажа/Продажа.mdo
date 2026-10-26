@@ -157,11 +157,4 @@
       <value>Счет</value>
     </synonym>
   </templates>
-  <templates uuid="dd6d0ec3-0e0d-4834-8d49-e484a17f4b15">
-    <name>СчетФактура</name>
-    <synonym>
-      <key>ru</key>
-      <value>Счет-фактура</value>
-    </synonym>
-  </templates>
 </mdclass:Document>
