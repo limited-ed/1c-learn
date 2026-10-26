@@ -23,21 +23,21 @@
     <name>НДС5</name>
     <synonym>
       <key>ru</key>
-      <value>НДС5</value>
+      <value>НДС 5%</value>
     </synonym>
   </enumValues>
   <enumValues uuid="b333ce3f-666e-40fe-b90c-92674ddd59ff">
     <name>НДС10</name>
     <synonym>
       <key>ru</key>
-      <value>НДС10</value>
+      <value>НДС 10%</value>
     </synonym>
   </enumValues>
   <enumValues uuid="9f6647f9-3a9c-4e53-a773-7e3b9225a129">
-    <name>НДС20</name>
+    <name>НДС22</name>
     <synonym>
       <key>ru</key>
-      <value>НДС20</value>
+      <value>НДС 22%</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

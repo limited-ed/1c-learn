@@ -152,8 +152,16 @@
   </tabularSections>
   <templates uuid="f3ffaab3-e5a7-44a2-9724-899a537b32a4">
     <name>Счет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет</value>
+    </synonym>
   </templates>
   <templates uuid="dd6d0ec3-0e0d-4834-8d49-e484a17f4b15">
     <name>СчетФактура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура</value>
+    </synonym>
   </templates>
 </mdclass:Document>

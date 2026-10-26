@@ -591,48 +591,6 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <items xsi:type="form:Button">
-      <name>КнопкаПечатьСчета</name>
-      <id>51</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>КнопкаПечатьСчетаРасширеннаяПодсказка</name>
-        <id>52</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.Command.ПечатьСчета</commandName>
-      <representation>Auto</representation>
-    </items>
-    <items xsi:type="form:Button">
-      <name>КнопкаПечатьСчетаФактуры</name>
-      <id>53</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>КнопкаПечатьСчетаФактурыРасширеннаяПодсказка</name>
-        <id>54</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.Command.ПечатьСчетаФактуры</commandName>
-      <representation>Auto</representation>
-    </items>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -667,32 +625,6 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
-  <formCommands>
-    <name>ПечатьСчета</name>
-    <title>
-      <key>ru</key>
-      <value>Счет</value>
-    </title>
-    <id>47</id>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПечатьСчета</name>
-      </handler>
-    </action>
-  </formCommands>
-  <formCommands>
-    <name>ПечатьСчетаФактуры</name>
-    <title>
-      <key>ru</key>
-      <value>Счет-фактура</value>
-    </title>
-    <id>48</id>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПечатьСчетаФактуры</name>
-      </handler>
-    </action>
-  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar>

@@ -82,6 +82,7 @@
   <roles>Role.КадровыйОтдел</roles>
   <roles>Role.Кладовщик</roles>
   <roles>Role.МенеджерПоПродажам</roles>
+  <commonModules>CommonModule.МодульФункций</commonModules>
   <commonCommands>CommonCommand.ус_ВыбратьСтиль</commonCommands>
   <constants>Constant.РежимНалогообложения</constants>
   <commonForms>CommonForm.ус_ФормаВыбораСтиля</commonForms>
@@ -103,6 +104,7 @@
   <documents>Document.ПодтверждениеОплаты</documents>
   <documents>Document.Приход</documents>
   <documents>Document.Продажа</documents>
+  <documents>Document.СчетФактура</documents>
   <enums>Enum.ВидДоговора</enums>
   <enums>Enum.ВидКонтрагента</enums>
   <enums>Enum.ВидОплаты</enums>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<languageSettings>
 		<currentLanguage>ru</currentLanguage>
 		<defaultLanguage>ru</defaultLanguage>
@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>5</size>
+		<size>7</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -41,47 +41,31 @@
 				<formatIndex>5</formatIndex>
 			</column>
 		</columnsItem>
+		<columnsItem>
+			<index>5</index>
+			<column>
+				<formatIndex>6</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>6</index>
+			<column>
+				<formatIndex>5</formatIndex>
+			</column>
+		</columnsItem>
 	</columns>
 	<rowsItem>
 		<index>0</index>
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>СЧЕТ НА ОПЛАТУ №</v8:content>
+							<v8:content>Счет на оплату № [Номер] от [Дата]</v8:content>
 						</v8:item>
 					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>6</f>
-					<parameter>Номер</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>от</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>6</f>
-					<parameter>Дата</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>0</f>
 				</c>
 			</c>
 		</row>
@@ -89,7 +73,17 @@
 	<rowsItem>
 		<index>1</index>
 		<row>
-			<empty>true</empty>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цены указаны с учетом НДС</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -97,18 +91,18 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Поставщик</v8:content>
+							<v8:content>Поставщик:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>6</f>
+					<f>10</f>
 					<parameter>Поставщик</parameter>
 				</c>
 			</c>
@@ -119,18 +113,18 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Покупатель</v8:content>
+							<v8:content>Покупатель:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>6</f>
+					<f>10</f>
 					<parameter>Покупатель</parameter>
 				</c>
 			</c>
@@ -141,18 +135,18 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ИНН/КПП покупателя</v8:content>
+							<v8:content>ИНН / КПП:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>6</f>
+					<f>10</f>
 					<parameter>ИннКпп</parameter>
 				</c>
 			</c>
@@ -163,18 +157,18 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Адрес</v8:content>
+							<v8:content>Адрес:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>6</f>
+					<f>10</f>
 					<parameter>Адрес</parameter>
 				</c>
 			</c>
@@ -185,18 +179,18 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Работник</v8:content>
+							<v8:content>Работник:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>6</f>
+					<f>10</f>
 					<parameter>Работник</parameter>
 				</c>
 			</c>
@@ -213,7 +207,7 @@
 		<row>
 			<c>
 				<c>
-					<f>7</f>
+					<f>11</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -224,7 +218,7 @@
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>11</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -235,33 +229,55 @@
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>11</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Количество</v8:content>
+							<v8:content>Кол-во</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>11</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Цена</v8:content>
+							<v8:content>Цена с НДС</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>11</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма</v8:content>
+							<v8:content>Сумма с НДС</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ставка НДС</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма НДС</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -273,32 +289,44 @@
 		<row>
 			<c>
 				<c>
-					<f>8</f>
+					<f>13</f>
 					<parameter>НомерСтроки</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>14</f>
 					<parameter>Номенклатура</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>13</f>
 					<parameter>Количество</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>13</f>
 					<parameter>Цена</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>13</f>
 					<parameter>Сумма</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+					<parameter>Ставка</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+					<parameter>СуммаНДС</parameter>
 				</c>
 			</c>
 		</row>
@@ -314,19 +342,19 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Итого</v8:content>
+							<v8:content>Итого с НДС:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
-				<i>4</i>
+				<i>6</i>
 				<c>
-					<f>6</f>
+					<f>15</f>
 					<parameter>Итого</parameter>
 				</c>
 			</c>
@@ -337,19 +365,20 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Всего наименований</v8:content>
+							<v8:content>В том числе НДС:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
+				<i>6</i>
 				<c>
-					<f>6</f>
-					<parameter>КоличествоПозиций</parameter>
+					<f>15</f>
+					<parameter>СуммаНДС</parameter>
 				</c>
 			</c>
 		</row>
@@ -359,63 +388,87 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Без налога (НДС)</v8:content>
+							<v8:content>Всего наименований: [КоличествоПозиций]</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
-	<rowsItem>
-		<index>14</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>15</index>
-		<row>
-			<c>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Руководитель</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>16</index>
-		<row>
-			<c>
-				<c>
-					<f>0</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Бухгалтер</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<height>17</height>
-	<vgRows>17</vgRows>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>16</defaultFormatIndex>
+	<height>14</height>
+	<vgRows>14</vgRows>
+	<merge>
+		<r>0</r>
+		<c>0</c>
+		<w>6</w>
+	</merge>
+	<merge>
+		<r>1</r>
+		<c>0</c>
+		<w>6</w>
+	</merge>
+	<merge>
+		<r>2</r>
+		<c>1</c>
+		<w>5</w>
+	</merge>
+	<merge>
+		<r>3</r>
+		<c>1</c>
+		<w>5</w>
+	</merge>
+	<merge>
+		<r>4</r>
+		<c>1</c>
+		<w>5</w>
+	</merge>
+	<merge>
+		<r>5</r>
+		<c>1</c>
+		<w>5</w>
+	</merge>
+	<merge>
+		<r>6</r>
+		<c>1</c>
+		<w>5</w>
+	</merge>
+	<merge>
+		<r>11</r>
+		<c>0</c>
+		<w>5</w>
+	</merge>
+	<merge>
+		<r>12</r>
+		<c>0</c>
+		<w>5</w>
+	</merge>
+	<merge>
+		<r>13</r>
+		<c>0</c>
+		<w>6</w>
+	</merge>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Подвал</name>
+		<name>Шапка</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>11</beginRow>
-			<endRow>16</endRow>
+			<beginRow>0</beginRow>
+			<endRow>7</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ШапкаТаблицы</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>8</beginRow>
+			<endRow>8</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -431,54 +484,87 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Шапка</name>
+		<name>Подвал</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>0</beginRow>
-			<endRow>8</endRow>
+			<beginRow>10</beginRow>
+			<endRow>13</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
-	<printSettings>
-		<pageOrientation>Portrait</pageOrientation>
-		<topMargin>1000</topMargin>
-		<leftMargin>1000</leftMargin>
-		<bottomMargin>1000</bottomMargin>
-		<rightMargin>1000</rightMargin>
-		<headerSize>1000</headerSize>
-		<footerSize>1000</footerSize>
-	</printSettings>
 	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
-	<font faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-	<font faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="9" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
-		<width>40</width>
+		<width>31</width>
 	</format>
 	<format>
-		<width>280</width>
+		<width>177</width>
 	</format>
 	<format>
-		<width>80</width>
+		<width>48</width>
 	</format>
 	<format>
-		<width>100</width>
+		<width>71</width>
 	</format>
 	<format>
-		<width>120</width>
+		<width>78</width>
 	</format>
 	<format>
+		<width>61</width>
+	</format>
+	<format>
+		<font>0</font>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>0</font>
+		<horizontalAlignment>Left</horizontalAlignment>
+	</format>
+	<format>
+		<font>0</font>
+	</format>
+	<format>
+		<font>0</font>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>2</font>
+		<border>0</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<font>0</font>
 		<border>0</border>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
 	</format>
 	<format>
-		<font>1</font>
-		<border>0</border>
+		<font>2</font>
+		<horizontalAlignment>Right</horizontalAlignment>
 		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<width>68</width>
 	</format>
 </document>
