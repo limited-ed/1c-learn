@@ -270,7 +270,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ПечатьАкта</commandName>
+      <commandName>Form.Command.ПечатьДокументов</commandName>
       <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
@@ -312,15 +312,15 @@
     </extInfo>
   </attributes>
   <formCommands>
-    <name>ПечатьАкта</name>
+    <name>ПечатьДокументов</name>
     <title>
       <key>ru</key>
-      <value>Акт приема-передачи</value>
+      <value>Печать документов</value>
     </title>
     <id>22</id>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ПечатьАкта</name>
+        <name>ПечатьДокументов</name>
       </handler>
     </action>
   </formCommands>
@@ -328,7 +328,7 @@
     <navigationPanel/>
     <commandBar>
       <cmiFragmentRecord>
-        <command>Form.Command.ПечатьАкта</command>
+        <command>Form.Command.ПечатьДокументов</command>
       </cmiFragmentRecord>
     </commandBar>
   </commandInterface>

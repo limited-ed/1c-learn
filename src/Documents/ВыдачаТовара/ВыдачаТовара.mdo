@@ -127,4 +127,11 @@
   <templates uuid="f5824ac6-55a8-40ae-b71b-99b84bb966f9">
     <name>АктПриемаПередачи</name>
   </templates>
+  <templates uuid="5693cefb-e81c-47d3-aa74-0ed1ccb248f8">
+    <name>ГарантийныйТалон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантийный талон</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

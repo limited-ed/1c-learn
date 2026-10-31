@@ -32,6 +32,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Номенклатура.Form.ФормаСписка</defaultListForm>
   <attributes uuid="5f84fe94-4307-4382-a19b-70a30207effd">
     <name>Артикул</name>
     <synonym>
@@ -119,6 +120,26 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="bf8bee0e-91cf-40b1-9751-d32eb482195b">
+    <name>СрокГарантии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок гарантии (мес)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>12</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="b901bf43-628f-4046-b3ef-1971b82e567e">
     <producedTypes>
       <objectType typeId="54e495a0-2f88-4587-bee0-1ded41f084b8" valueTypeId="6bf82265-3d42-40ee-9c61-f2c1c046c433"/>
@@ -184,20 +205,20 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="d0ea02bf-336e-47ed-8144-7e58afe31ec1">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="e3fdea42-deb3-4348-8430-f9cfa25ca6e0">
     <name>ФормаВыбораСклада</name>
     <synonym>
       <key>ru</key>
       <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5543bddc-2ed8-492a-81e4-c629443806bd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

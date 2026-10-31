@@ -48,13 +48,13 @@
   <styles>Style.Античный</styles>
   <styles>Style.Белый</styles>
   <styles>Style.Зелёный</styles>
-  <styles>Style.Инфостарт</styles>
   <styles>Style.Классический</styles>
   <styles>Style.Красный</styles>
   <styles>Style.Малиновый</styles>
   <styles>Style.Молодёжный</styles>
   <styles>Style.Нэжный</styles>
   <styles>Style.Розовый</styles>
+  <styles>Style.Сероголубой</styles>
   <styles>Style.Серый</styles>
   <styles>Style.Синий</styles>
   <styles>Style.Телеграм</styles>
@@ -63,7 +63,6 @@
   <commonPictures>CommonPicture.Античный</commonPictures>
   <commonPictures>CommonPicture.Белый</commonPictures>
   <commonPictures>CommonPicture.Зелёный</commonPictures>
-  <commonPictures>CommonPicture.Инфостарт</commonPictures>
   <commonPictures>CommonPicture.Классический</commonPictures>
   <commonPictures>CommonPicture.Красный</commonPictures>
   <commonPictures>CommonPicture.Малиновый</commonPictures>
@@ -71,7 +70,10 @@
   <commonPictures>CommonPicture.Нэжный</commonPictures>
   <commonPictures>CommonPicture.ОбщаяКартинка</commonPictures>
   <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
+  <commonPictures>CommonPicture.ПечатьВсех</commonPictures>
+  <commonPictures>CommonPicture.ПечатьОдного</commonPictures>
   <commonPictures>CommonPicture.Розовый</commonPictures>
+  <commonPictures>CommonPicture.Сероголубой</commonPictures>
   <commonPictures>CommonPicture.Серый</commonPictures>
   <commonPictures>CommonPicture.Синий</commonPictures>
   <commonPictures>CommonPicture.Телеграм</commonPictures>
@@ -82,9 +84,13 @@
   <roles>Role.КадровыйОтдел</roles>
   <roles>Role.Кладовщик</roles>
   <roles>Role.МенеджерПоПродажам</roles>
+  <commonModules>CommonModule.ВозвратИзРезерва</commonModules>
+  <commonModules>CommonModule.МодульПечати</commonModules>
   <commonModules>CommonModule.МодульФункций</commonModules>
+  <scheduledJobs>ScheduledJob.ВозвратИзРезерва</scheduledJobs>
   <commonCommands>CommonCommand.ус_ВыбратьСтиль</commonCommands>
   <constants>Constant.РежимНалогообложения</constants>
+  <commonForms>CommonForm.ПечатьДокументов</commonForms>
   <commonForms>CommonForm.ус_ФормаВыбораСтиля</commonForms>
   <commonForms>CommonForm.ФормаВыбораПользователяИБ</commonForms>
   <commonForms>CommonForm.ФормаКонстант</commonForms>

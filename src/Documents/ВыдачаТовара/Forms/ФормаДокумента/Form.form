@@ -492,16 +492,16 @@
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
-      <name>ФормаПечатьАкта</name>
-      <id>38</id>
+      <name>ФормаПечатьДокументов</name>
+      <id>42</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаПечатьАктаРасширеннаяПодсказка</name>
-        <id>39</id>
+        <name>ФормаПечатьДокументовРасширеннаяПодсказка</name>
+        <id>43</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -509,7 +509,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ПечатьАкта</commandName>
+      <commandName>Form.Command.ПечатьДокументов</commandName>
       <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
@@ -548,15 +548,15 @@
     <savedData>true</savedData>
   </attributes>
   <formCommands>
-    <name>ПечатьАкта</name>
+    <name>ПечатьДокументов</name>
     <title>
       <key>ru</key>
-      <value>Акт приема-передачи</value>
+      <value>Печать документов</value>
     </title>
     <id>40</id>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ПечатьАкта</name>
+        <name>ПечатьДокументов</name>
       </handler>
     </action>
   </formCommands>
@@ -564,7 +564,7 @@
     <navigationPanel/>
     <commandBar>
       <cmiFragmentRecord>
-        <command>Form.Command.ПечатьАкта</command>
+        <command>Form.Command.ПечатьДокументов</command>
       </cmiFragmentRecord>
     </commandBar>
   </commandInterface>

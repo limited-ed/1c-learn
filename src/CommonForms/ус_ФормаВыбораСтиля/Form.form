@@ -44,81 +44,6 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
-      <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Зелёный</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Античный</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Молодёжный</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Классический</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Розовый</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Нэжный</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Синий</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Красный</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Малиновый</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Серый</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Фиолетовый</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Инфостарт</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Телеграм</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Белый</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:StringValue">
-          <value>Черный</value>
-        </value>
-      </choiceList>
       <textSize>Normal</textSize>
     </extInfo>
   </items>
@@ -267,6 +192,10 @@
     <id>-1</id>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <windowOpeningMode>DontBlock</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
