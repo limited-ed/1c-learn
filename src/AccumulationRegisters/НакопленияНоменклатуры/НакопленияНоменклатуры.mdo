@@ -8,10 +8,10 @@
     <recordKeyType typeId="f4b9378c-2221-4636-9927-3548809591a7" valueTypeId="911727c2-0f4a-4998-b90b-9d91e9debabf"/>
     <recordType typeId="34d1c787-cbad-41db-9adc-843585de4255" valueTypeId="94bfd385-a7be-4db5-a89a-f408d899466c"/>
   </producedTypes>
-  <name>РегистрНакопленияНоменклатуры</name>
+  <name>НакопленияНоменклатуры</name>
   <synonym>
     <key>ru</key>
-    <value>Регистр накопления номенклатуры</value>
+    <value>Накопления номенклатуры</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>

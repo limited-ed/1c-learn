@@ -25,6 +25,8 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПодтверждениеОплаты.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПодтверждениеОплаты.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ВыдачаНоменклатуры</registerRecords>
+  <registerRecords>AccumulationRegister.РезервНоменклатуры</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="af48ac6f-8320-4a68-af06-16db294a96f4">

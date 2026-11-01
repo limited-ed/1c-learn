@@ -247,6 +247,10 @@
       <id>4</id>
       <autoFill>true</autoFill>
     </contextMenu>
+    <handlers>
+      <event>Selection</event>
+      <name>СписокВыбор</name>
+    </handlers>
     <changeRowSet>true</changeRowSet>
     <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>
@@ -331,16 +335,16 @@
 	НоменклатураСклада.Комментарий КАК НоменклатураКомментарий,
 	НоменклатураСклада.Предопределенный КАК НоменклатураПредопределенный,
 	НоменклатураСклада.ИмяПредопределенныхДанных КАК НоменклатураИмяПредопределенныхДанных,
-	РегистрНакопленияНоменклатуры.Количество КАК Количество,
-	РегистрНакопленияНоменклатуры.Магазин КАК Магазин
+	Остатки.КоличествоОстаток КАК Количество,
+	Остатки.Магазин КАК Магазин
 ИЗ
-	РегистрНакопления.РегистрНакопленияНоменклатуры КАК РегистрНакопленияНоменклатуры
+	РегистрНакопления.НакопленияНоменклатуры.Остатки(, Магазин = &amp;Магазин) КАК Остатки
 		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура КАК НоменклатураСклада
-		ПО РегистрНакопленияНоменклатуры.Номенклатура = НоменклатураСклада.Ссылка
+		ПО Остатки.Номенклатура = НоменклатураСклада.Ссылка
 ГДЕ
-	РегистрНакопленияНоменклатуры.Магазин = &amp;Магазин</queryText>
+	Остатки.КоличествоОстаток &gt; 0</queryText>
       <mainTable>Catalog.Номенклатура</mainTable>
-      <dynamicDataRead>true</dynamicDataRead>
+      <dynamicDataRead>false</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
