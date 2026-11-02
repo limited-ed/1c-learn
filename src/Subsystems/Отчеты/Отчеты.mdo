@@ -8,4 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Report.ОстаткиПоСкладам</content>
+  <content>Report.ПоступлениеНоменклатуры</content>
+  <content>Report.ДвижениеНоменклатуры</content>
+  <content>Report.ОтчетПоПродажам</content>
 </mdclass:Subsystem>

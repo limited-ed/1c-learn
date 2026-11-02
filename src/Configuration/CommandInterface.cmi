@@ -2,11 +2,11 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <subsystemsOrder>
     <subsystems>Subsystem.Продажа</subsystems>
-    <subsystems>Subsystem.Отчеты</subsystems>
     <subsystems>Subsystem.Номеклатура</subsystems>
     <subsystems>Subsystem.Кадры</subsystems>
+    <subsystems>Subsystem.Отчеты</subsystems>
+    <subsystems>Subsystem.Справочники</subsystems>
     <subsystems>Subsystem.ЗаполнениеДанными</subsystems>
     <subsystems>Subsystem.Настройка</subsystems>
-    <subsystems>Subsystem.Справочники</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>

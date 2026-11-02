@@ -17,4 +17,5 @@
   <content>Document.ПодтверждениеОплаты</content>
   <content>Document.Продажа</content>
   <content>Document.СчетФактура</content>
+  <content>Report.ОтчетПоПродажам</content>
 </mdclass:Subsystem>
