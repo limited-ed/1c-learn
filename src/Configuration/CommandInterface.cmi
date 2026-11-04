@@ -6,7 +6,6 @@
     <subsystems>Subsystem.Кадры</subsystems>
     <subsystems>Subsystem.Отчеты</subsystems>
     <subsystems>Subsystem.Справочники</subsystems>
-    <subsystems>Subsystem.ЗаполнениеДанными</subsystems>
     <subsystems>Subsystem.Настройка</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>

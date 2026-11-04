@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a00cd22b-7ce5-481f-9eb3-fe5f21e6b21b">
+  <producedTypes>
+    <objectType typeId="0074d4d2-fc14-408d-bcdd-f45a20ef56a0" valueTypeId="950da8a0-48f1-4cc1-acc1-e3fcad1ddc6a"/>
+    <managerType typeId="ffc290cc-957a-4c71-8805-bd8cd1f0eac9" valueTypeId="853dad7c-105f-4354-8c30-aa8e8ef3a80e"/>
+  </producedTypes>
+  <name>ЗаполнениеПриходаНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение прихода номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗаполнениеПриходаНоменклатуры.Form.Форма</defaultForm>
+  <forms uuid="84a50b3a-b96a-48f7-80ce-b62206fe372f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

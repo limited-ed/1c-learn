@@ -101,6 +101,14 @@
     <name>ФормаСписка</name>
     <usePurposes>PersonalComputer</usePurposes>
   </forms>
+  <forms uuid="0187770d-899b-41e9-b6c8-adf4296a80ac">
+    <name>ФормаПодбораПеремещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор перемещения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
   <tabularSections uuid="5efe5233-d7c8-4d2b-a98a-ad167179fef0">
     <producedTypes>
       <objectType typeId="1483d2f4-692b-4248-96a6-440b90072818" valueTypeId="a5032765-4780-4fce-83d4-fa188aec4c7d"/>

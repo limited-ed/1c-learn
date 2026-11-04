@@ -27,6 +27,7 @@
   <defaultObjectForm>Document.Приход.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.НакопленияНоменклатуры</registerRecords>
   <registerRecords>AccumulationRegister.ПеремещениеНоменклатуры</registerRecords>
+  <registerRecords>AccumulationRegister.РезервНоменклатуры</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="43911737-df80-4737-a89a-4b87db70d7fd">
@@ -37,6 +38,7 @@
     </synonym>
     <type>
       <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.Склады</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

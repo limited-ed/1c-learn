@@ -14,5 +14,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.ЗаполнениеКонтрагентов</content>
   <content>DataProcessor.ЗаполнениеНоменклатуры</content>
+  <content>DataProcessor.ЗаполнениеПриходаНоменклатуры</content>
   <content>Role.Администратор</content>
 </mdclass:Subsystem>

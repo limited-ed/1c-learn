@@ -124,6 +124,7 @@
   <reports>Report.ПоступлениеНоменклатуры</reports>
   <dataProcessors>DataProcessor.ЗаполнениеКонтрагентов</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеНоменклатуры</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнениеПриходаНоменклатуры</dataProcessors>
   <informationRegisters>InformationRegister.ЗначениеСвойстНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВыдачаНоменклатуры</accumulationRegisters>

@@ -30,16 +30,6 @@
       </numberQualifiers>
     </type>
   </resources>
-  <attributes uuid="7a458165-8701-43ca-a673-c5e88aa8610f">
-    <name>Контрагент</name>
-    <synonym>
-      <key>ru</key>
-      <value>Контрагент</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Контрагенты</types>
-    </type>
-  </attributes>
   <dimensions uuid="eba63a43-e2eb-4115-ae73-2acc81fcaa7c">
     <name>Номенклатура</name>
     <synonym>

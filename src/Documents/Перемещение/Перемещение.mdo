@@ -60,6 +60,36 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="e09499b5-97db-47b6-90c6-ade9941070cf">
+    <name>ПозЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Под заказ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6e97106c-88a8-4972-bbe9-d5fffefb26a0">
+    <name>ДокументПродажа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ продажа</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Продажа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="1770488b-86b2-4386-8f0e-b92aadbfe08a">
     <name>ФормаДокумента</name>
     <synonym>

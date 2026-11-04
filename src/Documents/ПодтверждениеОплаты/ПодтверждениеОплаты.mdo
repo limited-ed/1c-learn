@@ -26,6 +26,7 @@
   <defaultObjectForm>Document.ПодтверждениеОплаты.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПодтверждениеОплаты.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.ВыдачаНоменклатуры</registerRecords>
+  <registerRecords>AccumulationRegister.НакопленияНоменклатуры</registerRecords>
   <registerRecords>AccumulationRegister.РезервНоменклатуры</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
