@@ -415,7 +415,7 @@
       </title>
       <id>42</id>
       <valueType>
-        <types>CatalogRef.Склады</types>
+        <types>CatalogRef.Магазины</types>
       </valueType>
       <view>
         <common>true</common>
@@ -531,7 +531,7 @@
     </title>
     <id>48</id>
     <valueType>
-      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.Магазины</types>
     </valueType>
     <view>
       <common>true</common>
@@ -580,7 +580,7 @@
   <parameters>
     <name>Склад</name>
     <valueType>
-      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.Магазины</types>
     </valueType>
   </parameters>
   <parameters>

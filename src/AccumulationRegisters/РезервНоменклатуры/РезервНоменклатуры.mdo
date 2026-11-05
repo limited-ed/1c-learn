@@ -47,7 +47,7 @@
       <value>Магазин</value>
     </synonym>
     <type>
-      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.Магазины</types>
     </type>
   </dimensions>
 </mdclass:AccumulationRegister>

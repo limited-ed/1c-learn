@@ -38,7 +38,7 @@
     </synonym>
     <type>
       <types>CatalogRef.Контрагенты</types>
-      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.Магазины</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -60,13 +60,13 @@
       <value>Склад</value>
     </synonym>
     <type>
-      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.Магазины</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:ReferenceValue">
-      <value>Catalog.Склады.ОсновнойСклад</value>
+      <value>Catalog.Магазины.ОсновнойСклад</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

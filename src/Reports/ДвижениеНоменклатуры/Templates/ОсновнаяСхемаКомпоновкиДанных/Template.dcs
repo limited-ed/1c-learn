@@ -90,7 +90,7 @@
 			,
 			,
 			(Магазин = &amp;Склад
-				ИЛИ &amp;Склад = ЗНАЧЕНИЕ(Справочник.Склады.ПустаяСсылка))
+				ИЛИ &amp;Склад = ЗНАЧЕНИЕ(Справочник.Магазины.ПустаяСсылка))
 				И (Номенклатура = &amp;Номенклатура
 					ИЛИ &amp;Номенклатура = ЗНАЧЕНИЕ(Справочник.Номенклатура.ПустаяСсылка))) КАК ОстаткиИОбороты</query>
 	</dataSet>
@@ -171,7 +171,7 @@
 			</v8:item>
 		</title>
 		<valueType>
-			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Склады</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Магазины</v8:Type>
 		</valueType>
 		<value xsi:type="dcscor:DesignTimeValue">Справочник.Склады.ПустаяСсылка</value>
 		<useRestriction>false</useRestriction>

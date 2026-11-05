@@ -99,11 +99,11 @@
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Магазины</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Родство</catalogs>
   <catalogs>Catalog.СвойстваНоменклатуры</catalogs>
-  <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ТипыНоменклатуры</catalogs>
   <catalogs>Catalog.ШтатноеРасписание</catalogs>

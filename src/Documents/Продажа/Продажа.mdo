@@ -65,13 +65,13 @@
     </type>
   </attributes>
   <attributes uuid="9851009c-5c63-4574-af8d-a46be2ae792b">
-    <name>Склад</name>
+    <name>Магазин</name>
     <synonym>
       <key>ru</key>
-      <value>Склад</value>
+      <value>Магазин</value>
     </synonym>
     <type>
-      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.Магазины</types>
     </type>
     <fillChecking>ShowError</fillChecking>
   </attributes>

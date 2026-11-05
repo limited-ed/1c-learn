@@ -161,6 +161,10 @@
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
+    <handlers>
+      <event>Selection</event>
+      <name>СписокВыбор</name>
+    </handlers>
     <searchStringAddition>
       <name>СписокСтрокаПоиска</name>
       <id>7</id>
@@ -247,10 +251,6 @@
       <id>4</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <handlers>
-      <event>Selection</event>
-      <name>СписокВыбор</name>
-    </handlers>
     <changeRowSet>true</changeRowSet>
     <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>
@@ -342,9 +342,8 @@
 		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура КАК НоменклатураСклада
 		ПО Остатки.Номенклатура = НоменклатураСклада.Ссылка
 ГДЕ
-	Остатки.КоличествоОстаток &gt; 0</queryText>
+	Остатки.КоличествоОстаток > 0</queryText>
       <mainTable>Catalog.Номенклатура</mainTable>
-      <dynamicDataRead>false</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
@@ -440,7 +439,7 @@
           </localValue>
         </title>
         <valueType>
-          <types>CatalogRef.Склады</types>
+          <types>CatalogRef.Магазины</types>
         </valueType>
         <useRestriction>true</useRestriction>
       </parameters>

@@ -10,7 +10,7 @@
   <content>Catalog.Подразделения</content>
   <content>Catalog.Сотрудники</content>
   <content>Catalog.ТипыНоменклатуры</content>
-  <content>Catalog.Склады</content>
+  <content>Catalog.Магазины</content>
   <content>Catalog.Контрагенты</content>
   <content>Enum.ВидКонтрагента</content>
   <content>Enum.ВидДоговора</content>

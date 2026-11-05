@@ -169,11 +169,11 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Склад</name>
+    <name>Магазин</name>
     <id>55</id>
     <title>
       <key>ru</key>
-      <value>Склад</value>
+      <value>Магазин</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -181,10 +181,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Склад</segments>
+      <segments>Объект.Магазин</segments>
     </dataPath>
     <extendedTooltip>
-      <name>СкладРасширеннаяПодсказка</name>
+      <name>МагазинРасширеннаяПодсказка</name>
       <id>56</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -194,7 +194,9 @@
       </extInfo>
     </extendedTooltip>
     <type>InputField</type>
-    <extInfo xsi:type="form:InputFieldExtInfo"/>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <horizontalStretch>false</horizontalStretch>
+    </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>СрокРезерва</name>
@@ -742,6 +744,18 @@
     </commandBar>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
+    <handlers>
+      <event>BeforeWrite</event>
+      <name>ПередЗаписью</name>
+    </handlers>
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>AfterWrite</event>
+      <name>ПослеЗаписи</name>
+    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>

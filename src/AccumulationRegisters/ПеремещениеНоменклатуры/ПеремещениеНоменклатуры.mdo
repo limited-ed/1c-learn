@@ -65,10 +65,10 @@
     <name>Магазин</name>
     <synonym>
       <key>ru</key>
-      <value>Склад-получатель</value>
+      <value>Магазин</value>
     </synonym>
     <type>
-      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.Магазины</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
