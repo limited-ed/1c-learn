@@ -17,6 +17,6 @@
   <content>Role.МенеджерПоПродажам</content>
   <content>Role.Кладовщик</content>
   <content>Report.ДвижениеНоменклатуры</content>
-  <content>Report.ОстаткиПоСкладам</content>
+  <content>Report.ОстаткиПоМагазинам</content>
   <content>Report.ПоступлениеНоменклатуры</content>
 </mdclass:Subsystem>

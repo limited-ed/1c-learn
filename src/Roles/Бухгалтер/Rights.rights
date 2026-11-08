@@ -1448,7 +1448,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.ОстаткиПоСкладам</name>
+		<name>Report.ОстаткиПоМагазинам</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

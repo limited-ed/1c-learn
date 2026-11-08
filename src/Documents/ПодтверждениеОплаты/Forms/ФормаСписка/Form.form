@@ -157,19 +157,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ДокументОснованиеСклад</name>
-      <id>25</id>
+      <name>ДокументОснованиеМагазин</name>
+      <id>28</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.ДокументОснование.Склад</segments>
+        <segments>Список.ДокументОснование.Магазин</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДокументОснованиеСкладРасширеннаяПодсказка</name>
-        <id>27</id>
+        <name>ДокументОснованиеМагазинРасширеннаяПодсказка</name>
+        <id>30</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -178,8 +178,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДокументОснованиеСкладКонтекстноеМеню</name>
-        <id>26</id>
+        <name>ДокументОснованиеМагазинКонтекстноеМеню</name>
+        <id>29</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>

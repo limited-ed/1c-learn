@@ -326,21 +326,21 @@
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	НоменклатураСклада.Ссылка КАК НоменклатураСсылка,
-	НоменклатураСклада.ПометкаУдаления КАК НоменклатураПометкаУдаления,
-	НоменклатураСклада.Код КАК НоменклатураКод,
-	НоменклатураСклада.Наименование КАК НоменклатураНаименование,
-	НоменклатураСклада.Артикул КАК НоменклатураАртикул,
-	НоменклатураСклада.ТипНоменклатуры КАК НоменклатураТипНоменклатуры,
-	НоменклатураСклада.Комментарий КАК НоменклатураКомментарий,
-	НоменклатураСклада.Предопределенный КАК НоменклатураПредопределенный,
-	НоменклатураСклада.ИмяПредопределенныхДанных КАК НоменклатураИмяПредопределенныхДанных,
+	НоменклатураМагазина.Ссылка КАК НоменклатураСсылка,
+	НоменклатураМагазина.ПометкаУдаления КАК НоменклатураПометкаУдаления,
+	НоменклатураМагазина.Код КАК НоменклатураКод,
+	НоменклатураМагазина.Наименование КАК НоменклатураНаименование,
+	НоменклатураМагазина.Артикул КАК НоменклатураАртикул,
+	НоменклатураМагазина.ТипНоменклатуры КАК НоменклатураТипНоменклатуры,
+	НоменклатураМагазина.Комментарий КАК НоменклатураКомментарий,
+	НоменклатураМагазина.Предопределенный КАК НоменклатураПредопределенный,
+	НоменклатураМагазина.ИмяПредопределенныхДанных КАК НоменклатураИмяПредопределенныхДанных,
 	Остатки.КоличествоОстаток КАК Количество,
 	Остатки.Магазин КАК Магазин
 ИЗ
 	РегистрНакопления.НакопленияНоменклатуры.Остатки(, Магазин = &amp;Магазин) КАК Остатки
-		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура КАК НоменклатураСклада
-		ПО Остатки.Номенклатура = НоменклатураСклада.Ссылка
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура КАК НоменклатураМагазина
+		ПО Остатки.Номенклатура = НоменклатураМагазина.Ссылка
 ГДЕ
 	Остатки.КоличествоОстаток > 0</queryText>
       <mainTable>Catalog.Номенклатура</mainTable>
@@ -393,6 +393,10 @@
         <field>Магазин</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Номенклатура</dataPath>
+        <field>Номенклатура</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Ссылка</dataPath>
         <field>Ссылка</field>
       </fields>
@@ -421,12 +425,36 @@
         <field>Комментарий</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Модель</dataPath>
+        <field>Модель</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Бренд</dataPath>
+        <field>Бренд</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СрокГарантии</dataPath>
+        <field>СрокГарантии</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Фотографии</dataPath>
+        <field>Фотографии</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Предопределенный</dataPath>
         <field>Предопределенный</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ИмяПредопределенныхДанных</dataPath>
         <field>ИмяПредопределенныхДанных</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Родитель</dataPath>
+        <field>Родитель</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЭтоГруппа</dataPath>
+        <field>ЭтоГруппа</field>
       </fields>
       <parameters>
         <name>Магазин</name>
@@ -442,6 +470,21 @@
           <types>CatalogRef.Магазины</types>
         </valueType>
         <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>Период</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Период</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>Date</types>
+          <dateQualifiers/>
+        </valueType>
       </parameters>
     </extInfo>
   </attributes>

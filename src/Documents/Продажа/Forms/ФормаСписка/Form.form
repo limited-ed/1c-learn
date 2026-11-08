@@ -157,19 +157,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Склад</name>
-      <id>25</id>
+      <name>Магазин</name>
+      <id>31</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Склад</segments>
+        <segments>Список.Магазин</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СкладРасширеннаяПодсказка</name>
-        <id>27</id>
+        <name>МагазинРасширеннаяПодсказка</name>
+        <id>33</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -178,8 +178,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СкладКонтекстноеМеню</name>
-        <id>26</id>
+        <name>МагазинКонтекстноеМеню</name>
+        <id>32</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>

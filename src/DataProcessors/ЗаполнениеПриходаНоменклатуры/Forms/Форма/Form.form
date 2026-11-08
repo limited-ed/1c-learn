@@ -108,7 +108,7 @@
     <name>Заполнить</name>
     <title>
       <key>ru</key>
-      <value>Создать склады и приход</value>
+      <value>Создать магазины и приход</value>
     </title>
     <id>5</id>
     <action xsi:type="form:FormCommandHandlerContainer">

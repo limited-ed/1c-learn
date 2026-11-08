@@ -170,19 +170,19 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Склад</name>
-    <id>10</id>
+    <name>Магазин</name>
+    <id>41</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Склад</segments>
+      <segments>Объект.Магазин</segments>
     </dataPath>
     <extendedTooltip>
-      <name>СкладРасширеннаяПодсказка</name>
-      <id>12</id>
+      <name>МагазинРасширеннаяПодсказка</name>
+      <id>43</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -191,12 +191,12 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>СкладКонтекстноеМеню</name>
-      <id>11</id>
+      <name>МагазинКонтекстноеМеню</name>
+      <id>42</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -204,7 +204,6 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
@@ -212,24 +211,19 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>СкладМатериальноОтветственноеЛицоНаименование</name>
-    <id>35</id>
-    <title>
-      <key>ru</key>
-      <value>Ответственное лицо</value>
-    </title>
+    <name>МагазинМатериальноОтветственноеЛицо</name>
+    <id>44</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Склад.МатериальноОтветственноеЛицо.Description</segments>
+      <segments>Объект.Магазин.МатериальноОтветственноеЛицо</segments>
     </dataPath>
-    <skipOnInput>true</skipOnInput>
     <extendedTooltip>
-      <name>СкладМатериальноОтветственноеЛицоНаименованиеРасширеннаяПодсказка</name>
-      <id>37</id>
+      <name>МагазинМатериальноОтветственноеЛицоРасширеннаяПодсказка</name>
+      <id>46</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -238,21 +232,23 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>СкладМатериальноОтветственноеЛицоНаименованиеКонтекстноеМеню</name>
-      <id>36</id>
+      <name>МагазинМатериальноОтветственноеЛицоКонтекстноеМеню</name>
+      <id>45</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>LabelField</type>
+    <type>InputField</type>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:LabelFieldExtInfo">
+    <extInfo xsi:type="form:InputFieldExtInfo">
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <border xsi:type="core:BorderDef">
-        <width>1</width>
-      </border>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <items xsi:type="form:Table">

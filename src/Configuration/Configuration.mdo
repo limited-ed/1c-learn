@@ -119,7 +119,7 @@
   <enums>Enum.РежимНалогооблажения</enums>
   <enums>Enum.Роли</enums>
   <reports>Report.ДвижениеНоменклатуры</reports>
-  <reports>Report.ОстаткиПоСкладам</reports>
+  <reports>Report.ОстаткиПоМагазинам</reports>
   <reports>Report.ОтчетПоПродажам</reports>
   <reports>Report.ПоступлениеНоменклатуры</reports>
   <dataProcessors>DataProcessor.ЗаполнениеКонтрагентов</dataProcessors>

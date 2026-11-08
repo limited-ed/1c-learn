@@ -28,15 +28,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
-  <predefined>
-    <items id="456829c6-05c4-443c-b491-3666e0b77b4f">
-      <name>ОсновнойСклад</name>
-      <description>Основной склад</description>
-      <code xsi:type="core:StringValue">
-        <value>000000001</value>
-      </code>
-    </items>
-  </predefined>
+  <predefined/>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="15117b4a-fd1c-4fd3-9270-8a688b641fa3">

@@ -4,13 +4,13 @@
     <objectType typeId="8407307d-c743-43d0-b188-7b119ef19437" valueTypeId="e268ab9c-db4d-46ab-9f33-43568577add3"/>
     <managerType typeId="e2f8a0b7-0c36-4700-a1c1-272b77823d5a" valueTypeId="778c198f-c3d9-4225-bb36-b2e61530c0fe"/>
   </producedTypes>
-  <name>ОстаткиПоСкладам</name>
+  <name>ОстаткиПоМагазинам</name>
   <synonym>
     <key>ru</key>
-    <value>Остатки по складам</value>
+    <value>Остатки по магазинам</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <mainDataCompositionSchema>Report.ОстаткиПоСкладам.Template.СКДОтчет</mainDataCompositionSchema>
+  <mainDataCompositionSchema>Report.ОстаткиПоМагазинам.Template.СКДОтчет</mainDataCompositionSchema>
   <templates uuid="14896f50-cc9b-4b64-8dee-f7f919978131">
     <name>СКДОтчет</name>
     <synonym>

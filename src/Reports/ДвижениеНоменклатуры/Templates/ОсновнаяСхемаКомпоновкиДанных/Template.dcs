@@ -7,12 +7,12 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Склад</dataPath>
-			<field>Склад</field>
+			<dataPath>Магазин</dataPath>
+			<field>Магазин</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Склад</v8:content>
+					<v8:content>Магазин</v8:content>
 				</v8:item>
 			</title>
 			<role>
@@ -78,7 +78,7 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ОстаткиИОбороты.Магазин КАК Склад,
+	ОстаткиИОбороты.Магазин КАК Магазин,
 	ОстаткиИОбороты.Номенклатура КАК Номенклатура,
 	ОстаткиИОбороты.КоличествоНачальныйОстаток КАК ОстатокНаНачало,
 	ОстаткиИОбороты.КоличествоПриход КАК Поступление,
@@ -89,8 +89,8 @@
 			&amp;КонецПериода,
 			,
 			,
-			(Магазин = &amp;Склад
-				ИЛИ &amp;Склад = ЗНАЧЕНИЕ(Справочник.Магазины.ПустаяСсылка))
+			(Магазин = &amp;Магазин
+				ИЛИ &amp;Магазин = ЗНАЧЕНИЕ(Справочник.Магазины.ПустаяСсылка))
 				И (Номенклатура = &amp;Номенклатура
 					ИЛИ &amp;Номенклатура = ЗНАЧЕНИЕ(Справочник.Номенклатура.ПустаяСсылка))) КАК ОстаткиИОбороты</query>
 	</dataSet>
@@ -163,17 +163,17 @@
 		<availableAsField>false</availableAsField>
 	</parameter>
 	<parameter>
-		<name>Склад</name>
+		<name>Магазин</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>Склад</v8:content>
+				<v8:content>Магазин</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Магазины</v8:Type>
 		</valueType>
-		<value xsi:type="dcscor:DesignTimeValue">Справочник.Склады.ПустаяСсылка</value>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.Магазины.ПустаяСсылка</value>
 		<useRestriction>false</useRestriction>
 		<use>Always</use>
 	</parameter>
@@ -193,12 +193,12 @@
 		<use>Always</use>
 	</parameter>
 	<template>
-		<name>СтрокаСклада</name>
+		<name>СтрокаМагазина</name>
 		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
 			<dcsat:item xsi:type="dcsat:TableRow">
 				<dcsat:tableCell>
 					<dcsat:item xsi:type="dcsat:Field">
-						<dcsat:value xsi:type="dcscor:Parameter">Склад</dcsat:value>
+						<dcsat:value xsi:type="dcscor:Parameter">Магазин</dcsat:value>
 					</dcsat:item>
 					<dcsat:appearance>
 						<dcscor:item>
@@ -443,8 +443,8 @@
 			</dcsat:item>
 		</template>
 		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
-			<dcsat:name>Склад</dcsat:name>
-			<dcsat:expression>Представление(Склад)</dcsat:expression>
+			<dcsat:name>Магазин</dcsat:name>
+			<dcsat:expression>Представление(Магазин)</dcsat:expression>
 		</parameter>
 		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
 			<dcsat:name>ОстатокНаНачало</dcsat:name>
@@ -1014,7 +1014,7 @@
 		</parameter>
 	</template>
 	<template>
-		<name>ИтогСклада</name>
+		<name>ИтогМагазина</name>
 		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
 			<dcsat:item xsi:type="dcsat:TableRow">
 				<dcsat:tableCell>
@@ -1282,14 +1282,14 @@
 		</parameter>
 	</template>
 	<groupTemplate>
-		<groupField>Склад</groupField>
+		<groupField>Магазин</groupField>
 		<templateType>Header</templateType>
-		<template>СтрокаСклада</template>
+		<template>СтрокаМагазина</template>
 	</groupTemplate>
 	<groupTemplate>
-		<groupField>Склад</groupField>
+		<groupField>Магазин</groupField>
 		<templateType>OverallHeader</templateType>
-		<template>ИтогСклада</template>
+		<template>ИтогМагазина</template>
 	</groupTemplate>
 	<groupTemplate>
 		<groupName>Номенклатура</groupName>
@@ -1312,7 +1312,7 @@
 		<dcsset:settings xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Склад</dcsset:field>
+					<dcsset:field>Магазин</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Номенклатура</dcsset:field>
@@ -1336,8 +1336,8 @@
 					<dcsset:userSettingID>e2a4707d-c1b7-4563-a08e-73d4bc91560a</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>Склад</dcscor:parameter>
-					<dcscor:value xsi:type="dcscor:DesignTimeValue">Справочник.Склады.ПустаяСсылка</dcscor:value>
+					<dcscor:parameter>Магазин</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DesignTimeValue">Справочник.Магазины.ПустаяСсылка</dcscor:value>
 					<dcsset:userSettingID>f3b5818e-d2c8-4674-b19f-84e5cd02671b</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -1363,7 +1363,7 @@
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
-						<dcsset:field>Склад</dcsset:field>
+						<dcsset:field>Магазин</dcsset:field>
 						<dcsset:groupType>Items</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>

@@ -92,7 +92,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ЗапасыСклад</name>
+      <name>ЗапасыМагазин</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -100,10 +100,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Запасы.Склад</segments>
+        <segments>Запасы.Магазин</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ЗапасыСкладРасширеннаяПодсказка</name>
+        <name>ЗапасыМагазинРасширеннаяПодсказка</name>
         <id>9</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -113,7 +113,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ЗапасыСкладКонтекстноеМеню</name>
+        <name>ЗапасыМагазинКонтекстноеМеню</name>
         <id>10</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -408,10 +408,10 @@
       </edit>
     </columns>
     <columns>
-      <name>Склад</name>
+      <name>Магазин</name>
       <title>
         <key>ru</key>
-        <value>Склад</value>
+        <value>Магазин</value>
       </title>
       <id>42</id>
       <valueType>
@@ -524,10 +524,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>Склад</name>
+    <name>Магазин</name>
     <title>
       <key>ru</key>
-      <value>Склад</value>
+      <value>Магазин</value>
     </title>
     <id>48</id>
     <valueType>
@@ -578,7 +578,7 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>
-    <name>Склад</name>
+    <name>Магазин</name>
     <valueType>
       <types>CatalogRef.Магазины</types>
     </valueType>
