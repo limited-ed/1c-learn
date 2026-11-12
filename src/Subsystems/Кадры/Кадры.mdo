@@ -13,4 +13,5 @@
   <content>CommonForm.ФормаВыбораПользователяИБ</content>
   <content>Role.Администратор</content>
   <content>Role.КадровыйОтдел</content>
+  <content>Document.ТабельРабочегоВремени</content>
 </mdclass:Subsystem>

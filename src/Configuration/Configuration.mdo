@@ -113,6 +113,7 @@
   <documents>Document.Приход</documents>
   <documents>Document.Продажа</documents>
   <documents>Document.СчетФактура</documents>
+  <documents>Document.ТабельРабочегоВремени</documents>
   <enums>Enum.ВидДоговора</enums>
   <enums>Enum.ВидКонтрагента</enums>
   <enums>Enum.ВидОплаты</enums>
