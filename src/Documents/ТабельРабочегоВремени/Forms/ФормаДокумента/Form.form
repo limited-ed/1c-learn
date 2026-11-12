@@ -134,11 +134,21 @@
       <showInFooter>true</showInFooter>
       <autoWidthInTable>None</autoWidthInTable>
       <extInfo xsi:type="form:InputFieldExtInfo">
+        <handlers>
+          <event>StartChoice</event>
+          <name>ТабельГоризонтальныйСотрудникНачалоВыбора</name>
+        </handlers>
         <width>15</width>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
         <textEdit>true</textEdit>
+        <choiceParameterLinks>
+          <name>Отбор.Подразделение</name>
+          <datapath xsi:type="form:DataPath">
+            <segments>Объект.Магазин</segments>
+          </datapath>
+        </choiceParameterLinks>
         <textSize>Normal</textSize>
       </extInfo>
     </items>

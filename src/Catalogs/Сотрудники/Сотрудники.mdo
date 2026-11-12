@@ -187,7 +187,7 @@
       <value>Подразделение</value>
     </synonym>
     <type>
-      <types>CatalogRef.Подразделения</types>
+      <types>CatalogRef.Магазины</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
