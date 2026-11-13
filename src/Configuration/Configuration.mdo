@@ -97,6 +97,7 @@
   <commonForms>CommonForm.ФормаКонстант</commonForms>
   <commonForms>CommonForm.ФормаСозданияПользователя</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ГрафикиРаботы</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Магазины</catalogs>
@@ -133,4 +134,6 @@
   <accumulationRegisters>AccumulationRegister.ПеремещениеНоменклатуры</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.РезервНоменклатуры</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеСвойстваНоменклатуры</chartsOfCharacteristicTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartsOfCalculationTypes>
 </mdclass:Configuration>

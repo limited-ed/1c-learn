@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40b7f5c3-8693-40bd-b013-659fc354ee5f">
+  <producedTypes>
+    <objectType typeId="c717d778-486d-4f28-a167-6fd48d247001" valueTypeId="954016ab-7142-4841-a743-9fa67a6e402a"/>
+    <refType typeId="263529f4-10f4-44c1-84ae-5a6eaf396044" valueTypeId="49b60bf1-16f0-40ee-97ee-eecc3a5355a3"/>
+    <selectionType typeId="181c9eb6-1a03-4cfc-b89d-7975317d8140" valueTypeId="aa3375f0-67d6-40c4-92d4-b5621ca7fe99"/>
+    <listType typeId="07e1811f-7745-4b3b-88f8-c6c86994e27e" valueTypeId="6dce5871-5a86-4853-be7d-ecdcbbfea818"/>
+    <managerType typeId="6b0f57cf-c500-43fa-b844-b93190e43e8e" valueTypeId="af63f0d5-ffc4-45e9-8cf3-c336ddb004e5"/>
+  </producedTypes>
+  <name>ГрафикиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГрафикиРаботы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ГрафикиРаботы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ee1716d3-35bb-451a-9e3c-e5cc8d34e505">
+    <name>ЧасыРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часы работы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
