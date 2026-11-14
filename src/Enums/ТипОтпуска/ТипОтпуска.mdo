@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="512f1478-e3a4-4184-9153-0668214cd583">
+  <producedTypes>
+    <refType typeId="3fb12b2e-f350-4bab-b095-f32c65c1a111" valueTypeId="e4f9d00f-df1f-4735-8729-3b4cb48a7bb9"/>
+    <listType typeId="e8d8c57b-b545-47d7-a42e-dc42c9c09ade" valueTypeId="372cffa7-3466-4175-87e7-a509b15d7622"/>
+    <managerType typeId="a9854ae2-cc22-4822-8fe7-d9f6fa752e0c" valueTypeId="1785fe6c-06c0-4a32-94e4-58b386c1d13b"/>
+  </producedTypes>
+  <name>ТипОтпуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип отпуска</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="953d1115-68bd-4b4b-b317-6959a29d44fb">
+    <name>Оплачиваемый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачиваемый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="988628b8-4d0a-48a2-9296-534f5f38d334">
+    <name>БезСохраненияЗаработнойПлаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без сохранения заработной платы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

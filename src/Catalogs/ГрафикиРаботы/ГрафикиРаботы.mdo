@@ -28,6 +28,22 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="7df0f20d-b356-4b13-b69b-09ef7008cedd">
+      <name>Пятидневка</name>
+      <description>Пятидневная неделя</description>
+      <code xsi:type="core:StringValue">
+        <value>1</value>
+      </code>
+    </items>
+    <items id="c94a58d9-12f6-4687-a936-34feb6fe09f5">
+      <name>ДваЧерезДва</name>
+      <description>2 через 2, 12 часов</description>
+      <code xsi:type="core:StringValue">
+        <value>2</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="ee1716d3-35bb-451a-9e3c-e5cc8d34e505">
@@ -48,5 +64,28 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2a4c039c-673c-4f2f-84ef-84ea64291587">
+    <name>ВидГрафика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид графика</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидГрафикаРаботы</types>
+    </type>
+  </attributes>
+  <attributes uuid="86629674-07f6-4609-b82a-4c69b38f664a">
+    <name>ДатаНачалаЦикла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала цикла</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
   </attributes>
 </mdclass:Catalog>

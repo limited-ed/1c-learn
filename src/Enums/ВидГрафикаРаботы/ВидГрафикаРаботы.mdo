@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9350533f-262d-4b69-9c82-d8c69e64ffad">
+  <producedTypes>
+    <refType typeId="d1a88d5e-0a22-4c57-8912-ed561946c36a" valueTypeId="b8cac136-6f12-4cb5-8de5-0ea6f42bb0ea"/>
+    <listType typeId="efd43373-2ad6-430d-81e8-53ae2a6c309a" valueTypeId="b198e656-454b-4716-a164-e44c5ef9e220"/>
+    <managerType typeId="177f79a0-d2b8-4163-b8dc-f5e90749f2e1" valueTypeId="8dc31b4f-64f6-459e-9ba2-986cb21b8300"/>
+  </producedTypes>
+  <name>ВидГрафикаРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид графика работы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="91641b5d-8a80-49d1-9f6b-f1a02dc11628">
+    <name>Пятидневка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пятидневная неделя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="584fa79d-626f-4dad-bf46-52e37d7ed13a">
+    <name>ДваЧерезДва</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 через 2</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

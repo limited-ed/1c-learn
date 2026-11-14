@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8739e259-0d42-4817-85b3-41b2f2846a81">
+  <producedTypes>
+    <selectionType typeId="d8e461b2-93fc-4d3d-a861-407f958f5ee4" valueTypeId="576239e3-d4db-4d16-97a7-adf908359c51"/>
+    <listType typeId="74b7f096-a9d5-4255-80f9-dbf8c473d2d4" valueTypeId="d717b884-8696-45c9-813c-ad110ce6101e"/>
+    <managerType typeId="aefeb9fe-e8af-41a7-8380-a82b5ae66e84" valueTypeId="ea25791a-bf5a-4afd-b800-f13e8b9a1893"/>
+  </producedTypes>
+  <name>Приказы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приказы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПриказПремия</registeredDocuments>
+  <registeredDocuments>Document.ПриказОтпуск</registeredDocuments>
+  <columns uuid="4da21077-56c1-4fff-8f5e-abd8c343ce5a">
+    <name>Графа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Графа</value>
+    </synonym>
+    <references>Document.ПриказОтпуск.Attribute.Сотрудник</references>
+  </columns>
+</mdclass:DocumentJournal>

@@ -111,15 +111,20 @@
   <documents>Document.ВыдачаТовара</documents>
   <documents>Document.Перемещение</documents>
   <documents>Document.ПодтверждениеОплаты</documents>
+  <documents>Document.ПриказОтпуск</documents>
+  <documents>Document.ПриказПремия</documents>
   <documents>Document.Приход</documents>
   <documents>Document.Продажа</documents>
   <documents>Document.СчетФактура</documents>
   <documents>Document.ТабельРабочегоВремени</documents>
+  <documentJournals>DocumentJournal.Приказы</documentJournals>
+  <enums>Enum.ВидГрафикаРаботы</enums>
   <enums>Enum.ВидДоговора</enums>
   <enums>Enum.ВидКонтрагента</enums>
   <enums>Enum.ВидОплаты</enums>
   <enums>Enum.РежимНалогооблажения</enums>
   <enums>Enum.Роли</enums>
+  <enums>Enum.ТипОтпуска</enums>
   <reports>Report.ДвижениеНоменклатуры</reports>
   <reports>Report.ОстаткиПоМагазинам</reports>
   <reports>Report.ОтчетПоПродажам</reports>
@@ -134,6 +139,4 @@
   <accumulationRegisters>AccumulationRegister.ПеремещениеНоменклатуры</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.РезервНоменклатуры</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеСвойстваНоменклатуры</chartsOfCharacteristicTypes>
-  <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
-  <chartsOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartsOfCalculationTypes>
 </mdclass:Configuration>

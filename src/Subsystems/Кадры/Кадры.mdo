@@ -14,4 +14,7 @@
   <content>Role.Администратор</content>
   <content>Role.КадровыйОтдел</content>
   <content>Document.ТабельРабочегоВремени</content>
+  <content>DocumentJournal.Приказы</content>
+  <content>Catalog.ГрафикиРаботы</content>
+  <content>Enum.ВидГрафикаРаботы</content>
 </mdclass:Subsystem>
