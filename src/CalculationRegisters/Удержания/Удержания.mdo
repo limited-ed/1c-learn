@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57ab8deb-6e98-4060-a15c-1e3f61559019">
+  <producedTypes>
+    <selectionType typeId="3f4c0954-4cca-4449-a8a7-2a4df61f1707" valueTypeId="419f5695-9692-491c-a853-2f7c3bb3e9c3"/>
+    <listType typeId="d68c4bd6-fdf7-4025-87dc-745b456cceb3" valueTypeId="523b1d15-029c-4806-8a11-80927f33cd70"/>
+    <managerType typeId="05f63842-1baf-42e2-9592-81f26cad1313" valueTypeId="93ad9160-28c5-49a8-9e4d-f31387ef770c"/>
+    <recordSetType typeId="0ec42d88-178d-4612-b9b0-0417350a4c0b" valueTypeId="1a21df3f-aed9-4488-8fdf-bcc3339d28c1"/>
+    <recordKeyType typeId="049f3719-85ed-42a0-9eff-ff937577651f" valueTypeId="3e7d92ca-3ec0-4af2-b465-93216b8902c9"/>
+    <recordType typeId="3ebc5ec8-eb7b-4189-a03f-5a4cf5f34a6b" valueTypeId="70d900a9-6641-48a8-ba9d-338230415552"/>
+    <recalcsType typeId="c4173587-3ece-4950-bafa-447b7716ee17" valueTypeId="bfd36d29-55dd-4838-a9c7-0a636990013f"/>
+  </producedTypes>
+  <name>Удержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удержания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <basePeriod>true</basePeriod>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e09db752-cb65-4a73-8aac-bcd64e811485">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <attributes uuid="4fd69be2-3500-4b0b-87c0-7e55132c4717">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <dimensions uuid="8b5ea0b6-0bce-464c-ba7e-d1b8b883642e">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+  </dimensions>
+</mdclass:CalculationRegister>

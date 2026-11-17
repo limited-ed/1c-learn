@@ -19,4 +19,5 @@
   <content>Report.ДвижениеНоменклатуры</content>
   <content>Report.ОстаткиПоМагазинам</content>
   <content>Report.ПоступлениеНоменклатуры</content>
+  <content>DataProcessor.ЗагрузкаЦенНоменклатуры</content>
 </mdclass:Subsystem>

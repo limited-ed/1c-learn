@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59e5626f-b3d6-419c-94e5-ebcc69d02698">
+  <producedTypes>
+    <selectionType typeId="a77638c7-0952-4e26-a3ad-db5b12b768c7" valueTypeId="ff716c58-994d-4866-bb79-2c12cfcdbdc1"/>
+    <listType typeId="5c405553-fe9e-46f4-9704-1b8c61e83769" valueTypeId="bd9584ee-4e06-456e-9d6b-426033ac5f9c"/>
+    <managerType typeId="eda81b54-ebf1-4515-9df3-8cc3a46ad6e9" valueTypeId="af1a4f67-f891-4129-9ed0-b60fd79d35fd"/>
+    <recordSetType typeId="a79c9065-262b-464c-8d4d-1e0592ada832" valueTypeId="dfe7c0e0-a51c-4d07-a0ef-8cf085e9f1c0"/>
+    <recordKeyType typeId="fe8556cc-b22e-4394-a781-504b19bdbb03" valueTypeId="3462d8ab-6241-443b-b89c-710120f9782c"/>
+    <recordType typeId="28bcd88c-7312-49c0-a04c-15061274563e" valueTypeId="c60559e4-cadf-4348-af93-550af64291cb"/>
+    <recalcsType typeId="49ba5587-49d7-4977-8a28-0706485ac9c2" valueTypeId="64bf6b19-2c9d-492c-9daa-ad8c13bf43b9"/>
+  </producedTypes>
+  <name>Начисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <actionPeriod>true</actionPeriod>
+  <basePeriod>true</basePeriod>
+  <schedule>InformationRegister.ДанныеГрафикаРаботы</schedule>
+  <scheduleValue>InformationRegister.ДанныеГрафикаРаботы.Resource.Часы</scheduleValue>
+  <scheduleDate>InformationRegister.ДанныеГрафикаРаботы.Dimension.Дата</scheduleDate>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2be47c45-365f-4926-9a61-87c1e91f238a">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <resources uuid="a329b556-3657-45b0-9cc0-069c98f626cb">
+    <name>ОтработаноЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отработано часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <attributes uuid="72115b4f-91f6-43d6-8523-d5883d7a8b78">
+    <name>Тариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <dimensions uuid="81bdcbb4-ecc9-4017-8b72-d41032ebfbfe">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+  </dimensions>
+</mdclass:CalculationRegister>

@@ -130,7 +130,7 @@
     <name>Работник</name>
     <id>13</id>
     <visible>true</visible>
-    <enabled>true</enabled>
+    <enabled>false</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>

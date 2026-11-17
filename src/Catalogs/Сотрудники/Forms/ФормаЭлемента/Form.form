@@ -915,6 +915,62 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
+  <items xsi:type="form:FormField">
+    <name>ПроцентОтПродаж</name>
+    <id>131</id>
+    <title>
+      <key>ru</key>
+      <value>Процент от продаж</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ПроцентОтПродаж</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ПроцентОтПродажРасширеннаяПодсказка</name>
+      <id>132</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>InputField</type>
+    <extInfo xsi:type="form:InputFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ПроцентАлиментов</name>
+    <id>133</id>
+    <title>
+      <key>ru</key>
+      <value>Процент алиментов</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ПроцентАлиментов</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ПроцентАлиментовРасширеннаяПодсказка</name>
+      <id>134</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>InputField</type>
+    <extInfo xsi:type="form:InputFieldExtInfo"/>
+  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>

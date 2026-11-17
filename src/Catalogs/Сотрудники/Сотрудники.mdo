@@ -221,6 +221,36 @@
       <types>EnumRef.Роли</types>
     </type>
   </attributes>
+  <attributes uuid="0d69dd59-66d6-401d-9b48-20fff5bccdfb">
+    <name>ПроцентОтПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент от продаж</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="89a8e9bd-8475-41e6-988a-83ce424b163e">
+    <name>ПроцентАлиментов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент алиментов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
   <tabularSections uuid="e97ab0f0-2afb-4fb8-9a52-c1f1742269da">
     <producedTypes>
       <objectType typeId="cae887c0-3a95-44b1-ba01-0757eb2f2908" valueTypeId="8bd39873-598e-4eff-ab84-10dee0489ba8"/>

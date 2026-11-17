@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ea074e4-9abd-4dc4-a063-13d2c6430cca">
+  <producedTypes>
+    <objectType typeId="381ef9e6-d083-4081-991a-89b71be429f2" valueTypeId="b87f028a-f85a-424c-b5da-41dd1cd1cd56"/>
+    <managerType typeId="617d62c1-f937-4e11-87a2-98a9bf9b03d5" valueTypeId="24940a22-c07c-4c68-a935-8aabc2b35430"/>
+  </producedTypes>
+  <name>АвтоматическийРасчетЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматический расчет зарплаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АвтоматическийРасчетЗарплаты.Form.Форма</defaultForm>
+  <attributes uuid="a85e1841-a840-4222-8aa6-934a2172de9d">
+    <name>ПериодРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="091fda9c-7c6d-4af9-80fc-47511a438fd5">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Магазины</types>
+    </type>
+  </attributes>
+  <forms uuid="cfb8056a-c3d8-41ce-b79b-6d98fa7274b9">
+    <name>Форма</name>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

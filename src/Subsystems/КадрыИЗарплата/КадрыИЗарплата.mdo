@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdd8e479-04f4-4ccd-be99-92af48832228">
-  <name>Кадры</name>
+  <name>КадрыИЗарплата</name>
   <synonym>
     <key>ru</key>
-    <value>Кадры</value>
+    <value>Кадры и зарплата</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
@@ -16,5 +16,15 @@
   <content>Document.ТабельРабочегоВремени</content>
   <content>DocumentJournal.Приказы</content>
   <content>Catalog.ГрафикиРаботы</content>
-  <content>Enum.ВидГрафикаРаботы</content>
+  <content>Document.НачислениеЗарплаты</content>
+  <content>Document.БольничныйЛист</content>
+  <content>Document.УдержаниеЗаПорчу</content>
+  <content>Document.ПриказОтпуск</content>
+  <content>Document.ПриказПремия</content>
+  <content>DataProcessor.АвтоматическийРасчетЗарплаты</content>
+  <content>CalculationRegister.Начисления</content>
+  <content>CalculationRegister.Удержания</content>
+  <content>Constant.СтавкаНДФЛ</content>
+  <content>Report.РасчетныйЛист</content>
+  <content>CommandGroup.НачислениеЗарплаты</content>
 </mdclass:Subsystem>

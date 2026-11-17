@@ -26,6 +26,7 @@
     </functionality>
   </usedMobileApplicationFunctionalities>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <splash/>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
@@ -40,7 +41,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ЗаполнениеДанными</subsystems>
-  <subsystems>Subsystem.Кадры</subsystems>
+  <subsystems>Subsystem.КадрыИЗарплата</subsystems>
   <subsystems>Subsystem.Настройка</subsystems>
   <subsystems>Subsystem.Номеклатура</subsystems>
   <subsystems>Subsystem.Отчеты</subsystems>
@@ -69,8 +70,6 @@
   <commonPictures>CommonPicture.Малиновый</commonPictures>
   <commonPictures>CommonPicture.Молодёжный</commonPictures>
   <commonPictures>CommonPicture.Нэжный</commonPictures>
-  <commonPictures>CommonPicture.ОбщаяКартинка</commonPictures>
-  <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
   <commonPictures>CommonPicture.ПечатьВсех</commonPictures>
   <commonPictures>CommonPicture.ПечатьОдного</commonPictures>
   <commonPictures>CommonPicture.Розовый</commonPictures>
@@ -88,12 +87,17 @@
   <commonModules>CommonModule.ВозвратИзРезерва</commonModules>
   <commonModules>CommonModule.МодульПечати</commonModules>
   <commonModules>CommonModule.МодульФункций</commonModules>
+  <commonModules>CommonModule.РасчетЗарплаты</commonModules>
   <scheduledJobs>ScheduledJob.ВозвратИзРезерва</scheduledJobs>
   <commonCommands>CommonCommand.ус_ВыбратьСтиль</commonCommands>
+  <commandGroups>CommandGroup.Кадры</commandGroups>
+  <commandGroups>CommandGroup.НачислениеЗарплаты</commandGroups>
   <constants>Constant.РежимНалогообложения</constants>
+  <constants>Constant.СтавкаНДФЛ</constants>
   <commonForms>CommonForm.ВыборСтиля</commonForms>
   <commonForms>CommonForm.ПечатьДокументов</commonForms>
   <commonForms>CommonForm.ФормаВыбораПользователяИБ</commonForms>
+  <commonForms>CommonForm.ФормаГлавная</commonForms>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
   <commonForms>CommonForm.ФормаСозданияПользователя</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
@@ -108,7 +112,9 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ТипыНоменклатуры</catalogs>
   <catalogs>Catalog.ШтатноеРасписание</catalogs>
+  <documents>Document.БольничныйЛист</documents>
   <documents>Document.ВыдачаТовара</documents>
+  <documents>Document.НачислениеЗарплаты</documents>
   <documents>Document.Перемещение</documents>
   <documents>Document.ПодтверждениеОплаты</documents>
   <documents>Document.ПриказОтпуск</documents>
@@ -117,6 +123,7 @@
   <documents>Document.Продажа</documents>
   <documents>Document.СчетФактура</documents>
   <documents>Document.ТабельРабочегоВремени</documents>
+  <documents>Document.УдержаниеЗаПорчу</documents>
   <documentJournals>DocumentJournal.Приказы</documentJournals>
   <enums>Enum.ВидГрафикаРаботы</enums>
   <enums>Enum.ВидДоговора</enums>
@@ -129,9 +136,13 @@
   <reports>Report.ОстаткиПоМагазинам</reports>
   <reports>Report.ОтчетПоПродажам</reports>
   <reports>Report.ПоступлениеНоменклатуры</reports>
+  <reports>Report.РасчетныйЛист</reports>
+  <dataProcessors>DataProcessor.АвтоматическийРасчетЗарплаты</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаЦенНоменклатуры</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеКонтрагентов</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеНоменклатуры</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеПриходаНоменклатуры</dataProcessors>
+  <informationRegisters>InformationRegister.ДанныеГрафикаРаботы</informationRegisters>
   <informationRegisters>InformationRegister.ЗначениеСвойстНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВыдачаНоменклатуры</accumulationRegisters>
@@ -139,4 +150,8 @@
   <accumulationRegisters>AccumulationRegister.ПеремещениеНоменклатуры</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.РезервНоменклатуры</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеСвойстваНоменклатуры</chartsOfCharacteristicTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.Начисления</calculationRegisters>
+  <calculationRegisters>CalculationRegister.Удержания</calculationRegisters>
 </mdclass:Configuration>

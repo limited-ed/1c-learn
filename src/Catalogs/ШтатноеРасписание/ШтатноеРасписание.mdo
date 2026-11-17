@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ebbcd19-0dc1-4853-b5fd-c2349bb34d5f">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ebbcd19-0dc1-4853-b5fd-c2349bb34d5f">
   <producedTypes>
     <objectType typeId="36c96471-9aa9-417e-ac20-f4b2ef7e060b" valueTypeId="cbb6c474-1d50-481e-aafc-50d53e4ec680"/>
     <refType typeId="51fe321e-c607-4057-a07d-33997b7ea352" valueTypeId="239f6d6a-4829-4306-b205-95f3e0082ab2"/>
@@ -39,5 +39,25 @@
     <type>
       <types>CatalogRef.ГрафикиРаботы</types>
     </type>
+  </attributes>
+  <attributes uuid="1b88fd3a-4f41-42cd-9447-6246e44a9da6">
+    <name>ТарифЧас</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф час</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
 </mdclass:Catalog>

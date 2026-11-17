@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72eea656-f57b-4495-872f-7249a17bc23e">
+  <producedTypes>
+    <objectType typeId="40e0d2f3-d8ee-436e-8de1-6efb9985fe7f" valueTypeId="d9dadc0f-13b9-4941-b6e2-f376a8268efc"/>
+    <managerType typeId="1b63bb72-20da-43ff-b303-e08291da6a3b" valueTypeId="e490e670-5d7f-409a-a1f8-1446fcf87cbf"/>
+  </producedTypes>
+  <name>РасчетныйЛист</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчетный лист</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.РасчетныйЛист.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="50d175f5-d18f-40d4-a8f7-aa98fc8f80ee">
+    <name>ПериодРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="6dc74814-5524-4cfb-9916-ff5a660ca59f">
+    <name>Работник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+  </attributes>
+  <attributes uuid="795cee06-aaee-48c6-ae5a-19fd02e0f266">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Магазины</types>
+    </type>
+  </attributes>
+  <forms uuid="c97732e0-a4ab-4456-ad4d-2db303bb531b">
+    <name>ФормаОтчета</name>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <templates uuid="9e79c272-60c7-480b-be25-33b09eb08c61">
+    <name>РасчетныйЛист</name>
+  </templates>
+</mdclass:Report>

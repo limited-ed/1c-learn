@@ -11,4 +11,5 @@
   <content>Report.ПоступлениеНоменклатуры</content>
   <content>Report.ДвижениеНоменклатуры</content>
   <content>Report.ОтчетПоПродажам</content>
+  <content>Report.РасчетныйЛист</content>
 </mdclass:Subsystem>
