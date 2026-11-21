@@ -225,14 +225,6 @@
         <segments>Объект.Фотографии</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
-      <handlers>
-        <event>OnActivateRow</event>
-        <name>ФотографииПриАктивизацииСтроки</name>
-      </handlers>
-      <handlers>
-        <event>AfterDeleteRow</event>
-        <name>ФотографииПослеУдаления</name>
-      </handlers>
       <items xsi:type="form:FormField">
         <name>ФотографииНомерСтроки</name>
         <id>37</id>
@@ -413,6 +405,14 @@
         </items>
         <horizontalAlign>Left</horizontalAlign>
       </autoCommandBar>
+      <handlers>
+        <event>OnActivateRow</event>
+        <name>ФотографииПриАктивизацииСтроки</name>
+      </handlers>
+      <handlers>
+        <event>AfterDeleteRow</event>
+        <name>ФотографииПослеУдаления</name>
+      </handlers>
       <searchStringAddition>
         <name>ФотографииСтрокаПоиска</name>
         <id>26</id>
@@ -501,7 +501,7 @@
       </contextMenu>
       <changeRowSet>true</changeRowSet>
       <changeRowOrder>true</changeRowOrder>
-      <autoMaxWidth>true</autoMaxWidth>
+      <width>40</width>
       <autoMaxHeight>true</autoMaxHeight>
       <autoMaxRowsCount>true</autoMaxRowsCount>
       <selectionMode>MultiRow</selectionMode>
@@ -514,10 +514,8 @@
       <horizontalLines>true</horizontalLines>
       <verticalLines>true</verticalLines>
       <useAlternationRowColorBWA>true</useAlternationRowColorBWA>
-      <autoInsertNewRow>false</autoInsertNewRow>
       <searchOnInput>Auto</searchOnInput>
       <initialListView>Auto</initialListView>
-      <horizontalStretch>true</horizontalStretch>
       <verticalStretch>true</verticalStretch>
       <enableStartDrag>true</enableStartDrag>
       <enableDrag>true</enableDrag>
@@ -560,8 +558,12 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:ImageFieldExtInfo">
-        <width>30</width>
+        <width>100</width>
+        <autoMaxWidth>true</autoMaxWidth>
         <height>10</height>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
         <pictureSize>Proportionally</pictureSize>
         <border xsi:type="core:BorderDef">
           <width>1</width>

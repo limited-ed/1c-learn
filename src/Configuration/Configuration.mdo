@@ -65,17 +65,23 @@
   <commonPictures>CommonPicture.Античный</commonPictures>
   <commonPictures>CommonPicture.Белый</commonPictures>
   <commonPictures>CommonPicture.Зелёный</commonPictures>
+  <commonPictures>CommonPicture.Кадры</commonPictures>
   <commonPictures>CommonPicture.Классический</commonPictures>
   <commonPictures>CommonPicture.Красный</commonPictures>
   <commonPictures>CommonPicture.Малиновый</commonPictures>
   <commonPictures>CommonPicture.Молодёжный</commonPictures>
+  <commonPictures>CommonPicture.Настройки</commonPictures>
+  <commonPictures>CommonPicture.Номенклатура</commonPictures>
   <commonPictures>CommonPicture.Нэжный</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
   <commonPictures>CommonPicture.ПечатьВсех</commonPictures>
   <commonPictures>CommonPicture.ПечатьОдного</commonPictures>
+  <commonPictures>CommonPicture.Продажа</commonPictures>
   <commonPictures>CommonPicture.Розовый</commonPictures>
   <commonPictures>CommonPicture.Сероголубой</commonPictures>
   <commonPictures>CommonPicture.Серый</commonPictures>
   <commonPictures>CommonPicture.Синий</commonPictures>
+  <commonPictures>CommonPicture.Справочники</commonPictures>
   <commonPictures>CommonPicture.Телеграм</commonPictures>
   <commonPictures>CommonPicture.Фиолетовый</commonPictures>
   <commonPictures>CommonPicture.Черный</commonPictures>
@@ -97,7 +103,8 @@
   <commonForms>CommonForm.ВыборСтиля</commonForms>
   <commonForms>CommonForm.ПечатьДокументов</commonForms>
   <commonForms>CommonForm.ФормаВыбораПользователяИБ</commonForms>
-  <commonForms>CommonForm.ФормаГлавная</commonForms>
+  <commonForms>CommonForm.ФормаГлавнаяЛевая</commonForms>
+  <commonForms>CommonForm.ФормаГлавнаяПравая</commonForms>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
   <commonForms>CommonForm.ФормаСозданияПользователя</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
@@ -139,9 +146,6 @@
   <reports>Report.РасчетныйЛист</reports>
   <dataProcessors>DataProcessor.АвтоматическийРасчетЗарплаты</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаЦенНоменклатуры</dataProcessors>
-  <dataProcessors>DataProcessor.ЗаполнениеКонтрагентов</dataProcessors>
-  <dataProcessors>DataProcessor.ЗаполнениеНоменклатуры</dataProcessors>
-  <dataProcessors>DataProcessor.ЗаполнениеПриходаНоменклатуры</dataProcessors>
   <informationRegisters>InformationRegister.ДанныеГрафикаРаботы</informationRegisters>
   <informationRegisters>InformationRegister.ЗначениеСвойстНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>

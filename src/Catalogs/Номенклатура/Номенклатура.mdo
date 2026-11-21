@@ -33,6 +33,7 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Номенклатура.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Номенклатура.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="5f84fe94-4307-4382-a19b-70a30207effd">
     <name>Артикул</name>
     <synonym>
@@ -222,5 +223,13 @@
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d4431847-47b3-4b62-9d92-df56ca288346">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора номенклатуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
   </forms>
 </mdclass:Catalog>

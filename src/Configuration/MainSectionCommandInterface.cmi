@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Document.Продажа.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.Приход.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.Перемещение.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ВыдачаТовара.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
       <group>ActionsPanelCreate</group>
@@ -9,4 +35,13 @@
       <commands>Document.Приход.StandardCommand.Create</commands>
     </placementFragments>
   </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelCreate</group>
+      <commands>Document.Продажа.StandardCommand.Create</commands>
+      <commands>Document.ВыдачаТовара.StandardCommand.Create</commands>
+      <commands>Document.Перемещение.StandardCommand.Create</commands>
+      <commands>Document.Приход.StandardCommand.Create</commands>
+    </orderFragments>
+  </commandsOrder>
 </cmi:CommandInterface>
