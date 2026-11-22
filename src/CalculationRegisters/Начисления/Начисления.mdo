@@ -15,7 +15,7 @@
     <value>Начисления</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <periodicity>Month</periodicity>
+  <periodicity>Day</periodicity>
   <actionPeriod>true</actionPeriod>
   <basePeriod>true</basePeriod>
   <schedule>InformationRegister.ДанныеГрафикаРаботы</schedule>
