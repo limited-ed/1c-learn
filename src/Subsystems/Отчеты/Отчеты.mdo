@@ -15,4 +15,6 @@
   <content>Report.ДвижениеНоменклатуры</content>
   <content>Report.ОтчетПоПродажам</content>
   <content>Report.РасчетныйЛист</content>
+  <content>Role.Кладовщик</content>
+  <content>Role.МенеджерПоПродажам</content>
 </mdclass:Subsystem>

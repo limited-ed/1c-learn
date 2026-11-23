@@ -10,7 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Кадры</picture>
   </picture>
-  <content>Catalog.Подразделения</content>
   <content>Catalog.Сотрудники</content>
   <content>Catalog.ШтатноеРасписание</content>
   <content>CommonForm.ФормаВыбораПользователяИБ</content>
@@ -30,4 +29,7 @@
   <content>Constant.СтавкаНДФЛ</content>
   <content>Report.РасчетныйЛист</content>
   <content>CommandGroup.НачислениеЗарплаты</content>
+  <content>Document.ПриказПрием</content>
+  <content>Document.ПриказУвольнение</content>
+  <content>Enum.СтатусыСотрудников</content>
 </mdclass:Subsystem>

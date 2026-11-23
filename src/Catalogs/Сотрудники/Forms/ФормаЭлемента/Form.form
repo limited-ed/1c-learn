@@ -17,6 +17,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Description</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>НаименованиеПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>НаименованиеРасширеннаяПодсказка</name>
           <id>6</id>
@@ -257,6 +261,90 @@
           <textEdit>true</textEdit>
           <textSize>Normal</textSize>
         </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ПроцентОтПродаж</name>
+        <id>131</id>
+        <title>
+          <key>ru</key>
+          <value>Процент от продаж</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ПроцентОтПродаж</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ПроцентОтПродажРасширеннаяПодсказка</name>
+          <id>132</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>InputField</type>
+        <extInfo xsi:type="form:InputFieldExtInfo"/>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>Статус</name>
+        <id>151</id>
+        <title>
+          <key>ru</key>
+          <value>Статус</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Статус</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>СтатусРасширеннаяПодсказка</name>
+          <id>152</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>InputField</type>
+        <extInfo xsi:type="form:InputFieldExtInfo"/>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>Руководитель</name>
+        <id>153</id>
+        <title>
+          <key>ru</key>
+          <value>Руководитель</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Руководитель</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>РуководительРасширеннаяПодсказка</name>
+          <id>154</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>CheckBoxField</type>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -540,6 +628,34 @@
         <rowFilter xsi:type="core:UndefinedValue"/>
         <showCommandBarNeedDereferenced>true</showCommandBarNeedDereferenced>
       </items>
+      <items xsi:type="form:FormField">
+        <name>ПроцентАлиментов</name>
+        <id>133</id>
+        <title>
+          <key>ru</key>
+          <value>Процент алиментов</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ПроцентАлиментов</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ПроцентАлиментовРасширеннаяПодсказка</name>
+          <id>134</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>InputField</type>
+        <extInfo xsi:type="form:InputFieldExtInfo"/>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -673,6 +789,159 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаУчетныеДанные</name>
+        <id>135</id>
+        <items xsi:type="form:FormField">
+          <name>ПривязанныйПользователь</name>
+          <id>149</id>
+          <title>
+            <key>ru</key>
+            <value>Привязанный пользователь</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПривязанныйПользователь</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ПривязанныйПользовательРасширеннаяПодсказка</name>
+            <id>150</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>InputField</type>
+          <readOnly>true</readOnly>
+          <extInfo xsi:type="form:InputFieldExtInfo"/>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ИмяПользователя</name>
+          <id>137</id>
+          <title>
+            <key>ru</key>
+            <value>Имя пользователя</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ИмяПользователя</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ИмяПользователяРасширеннаяПодсказка</name>
+            <id>138</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>InputField</type>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>Пароль</name>
+          <id>139</id>
+          <title>
+            <key>ru</key>
+            <value>Пароль</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Пароль</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ПарольРасширеннаяПодсказка</name>
+            <id>140</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>InputField</type>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <passwordMode>true</passwordMode>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ПодтверждениеПароля</name>
+          <id>141</id>
+          <title>
+            <key>ru</key>
+            <value>Подтверждение пароля</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПодтверждениеПароля</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ПодтверждениеПароляРасширеннаяПодсказка</name>
+            <id>142</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>InputField</type>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <passwordMode>true</passwordMode>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Учетные данные</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаУчетныеДанныеРасширеннаяПодсказка</name>
+          <id>136</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <behavior>Auto</behavior>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
       <items xsi:type="form:Table">
         <name>Роли</name>
         <id>99</id>
@@ -703,6 +972,8 @@
         <excludedCommands>SearchEverywhere</excludedCommands>
         <excludedCommands>FindByCurrentValue</excludedCommands>
         <excludedCommands>SearchHistory</excludedCommands>
+        <excludedCommands>Add</excludedCommands>
+        <excludedCommands>Delete</excludedCommands>
         <items xsi:type="form:FormField">
           <name>РолиРоль</name>
           <id>118</id>
@@ -730,6 +1001,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
+          <readOnly>true</readOnly>
           <editMode>Auto</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -747,6 +1019,50 @@
         <autoCommandBar>
           <name>РолиКоманднаяПанель</name>
           <id>100</id>
+          <items xsi:type="form:Button">
+            <name>ДобавитьРоль</name>
+            <id>144</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ДобавитьРольРасширеннаяПодсказка</name>
+              <id>145</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.ДобавитьРоль</commandName>
+            <representation>Auto</representation>
+          </items>
+          <items xsi:type="form:Button">
+            <name>УдалитьРоль</name>
+            <id>147</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>УдалитьРольРасширеннаяПодсказка</name>
+              <id>148</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.УдалитьРоль</commandName>
+            <representation>Auto</representation>
+          </items>
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
@@ -915,68 +1231,16 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
-  <items xsi:type="form:FormField">
-    <name>ПроцентОтПродаж</name>
-    <id>131</id>
-    <title>
-      <key>ru</key>
-      <value>Процент от продаж</value>
-    </title>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ПроцентОтПродаж</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>ПроцентОтПродажРасширеннаяПодсказка</name>
-      <id>132</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>InputField</type>
-    <extInfo xsi:type="form:InputFieldExtInfo"/>
-  </items>
-  <items xsi:type="form:FormField">
-    <name>ПроцентАлиментов</name>
-    <id>133</id>
-    <title>
-      <key>ru</key>
-      <value>Процент алиментов</value>
-    </title>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ПроцентАлиментов</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>ПроцентАлиментовРасширеннаяПодсказка</name>
-      <id>134</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>InputField</type>
-    <extInfo xsi:type="form:InputFieldExtInfo"/>
-  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
@@ -1037,6 +1301,86 @@
       </edit>
     </columns>
   </attributes>
+  <attributes>
+    <name>ИмяПользователя</name>
+    <title>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </title>
+    <id>6</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>Пароль</name>
+    <title>
+      <key>ru</key>
+      <value>Пароль</value>
+    </title>
+    <id>7</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПодтверждениеПароля</name>
+    <title>
+      <key>ru</key>
+      <value>Подтверждение пароля</value>
+    </title>
+    <id>8</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПривязанныйПользователь</name>
+    <title>
+      <key>ru</key>
+      <value>Привязанный пользователь</value>
+    </title>
+    <id>9</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ПривязатьПользователя</name>
     <title>
@@ -1086,9 +1430,40 @@
     <currentRowUse>Auto</currentRowUse>
     <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
+  <formCommands>
+    <name>ДобавитьРоль</name>
+    <title>
+      <key>ru</key>
+      <value>Добавить роль</value>
+    </title>
+    <id>143</id>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДобавитьРоль</name>
+      </handler>
+    </action>
+  </formCommands>
+  <formCommands>
+    <name>УдалитьРоль</name>
+    <title>
+      <key>ru</key>
+      <value>Удалить роль</value>
+    </title>
+    <id>146</id>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УдалитьРоль</name>
+      </handler>
+    </action>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo"/>
+  <extInfo xsi:type="form:CatalogFormExtInfo">
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
+    </handlers>
+  </extInfo>
 </form:Form>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04c4aa6f-57a8-41e5-8e67-ed1d8c71183c">
+  <producedTypes>
+    <objectType typeId="11e3327a-21c3-4791-826e-62a0108cbd7a" valueTypeId="266eeab4-3852-439c-af51-c0e6cbc7e77e"/>
+    <refType typeId="7725213f-9085-4f34-b178-88ad7da6bdaf" valueTypeId="eee390f9-eec1-453b-bd98-3f3940b60ef7"/>
+    <selectionType typeId="f5051965-8576-4784-a9c6-f33f8cd8dd05" valueTypeId="a378c6c6-80d9-41f9-920b-3639201bcbf8"/>
+    <listType typeId="7ded3cc6-fc38-4a97-b172-6b01761888b5" valueTypeId="e7bfa6e9-0146-42bf-8678-6739f0de3937"/>
+    <managerType typeId="0d0dbcd8-c115-482d-a23c-1955c93ae508" valueTypeId="eddec97f-d55d-4749-b09a-f240954667d0"/>
+  </producedTypes>
+  <name>ПриказПрием</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приказ о приеме на работу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПриказПрием.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="6e1b63d8-0614-432f-ad29-bffaf90c5fae">
+    <name>ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="07c9752e-0cac-4888-9576-fa5653d4f349">
+    <name>ДатаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="3769885f-9b44-438e-a8c8-7cc1c43f4bba">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>18</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="33436693-64ab-443a-b559-627e076e7cea">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="eddbdafc-c859-4b1b-922f-ac4ed07c3883">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Магазины</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="49480a88-98fc-426d-a767-d73c5f3da792">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШтатноеРасписание</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="96db0f29-a407-4df7-8c25-af91f4f23904">
+    <name>ДатаПриема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата приема</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="bb69082b-5787-4a78-bf8f-12143404257d">
+    <name>Оклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="78e2e935-6c4d-4796-b8c7-8e762dab4566">
+    <name>ИспытательныйСрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Испытательный срок, мес.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="5b88e2b7-4c5b-4d48-9891-5f2b329ea7a5">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="85271c70-330f-4cf1-98b4-fdac745df6ae">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+  </attributes>
+  <forms uuid="f3643adc-6faa-4e08-a740-c27d28e86f91">
+    <name>ФормаДокумента</name>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <templates uuid="72c0f6dd-ab5f-414b-9521-0795e3b425dc">
+    <name>ФормаТ1</name>
+  </templates>
+</mdclass:Document>

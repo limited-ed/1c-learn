@@ -13,12 +13,16 @@
   <useStandardCommands>true</useStandardCommands>
   <registeredDocuments>Document.ПриказПремия</registeredDocuments>
   <registeredDocuments>Document.ПриказОтпуск</registeredDocuments>
+  <registeredDocuments>Document.ПриказПрием</registeredDocuments>
+  <registeredDocuments>Document.ПриказУвольнение</registeredDocuments>
   <columns uuid="4da21077-56c1-4fff-8f5e-abd8c343ce5a">
     <name>Графа</name>
     <synonym>
       <key>ru</key>
-      <value>Графа</value>
+      <value>Сотрудник</value>
     </synonym>
     <references>Document.ПриказОтпуск.Attribute.Сотрудник</references>
+    <references>Document.ПриказПрием.Attribute.Сотрудник</references>
+    <references>Document.ПриказУвольнение.Attribute.Сотрудник</references>
   </columns>
 </mdclass:DocumentJournal>

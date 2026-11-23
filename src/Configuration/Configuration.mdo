@@ -40,7 +40,6 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.ЗаполнениеДанными</subsystems>
   <subsystems>Subsystem.КадрыИЗарплата</subsystems>
   <subsystems>Subsystem.Настройка</subsystems>
   <subsystems>Subsystem.Номеклатура</subsystems>
@@ -101,10 +100,13 @@
   <constants>Constant.РежимНалогообложения</constants>
   <constants>Constant.СтавкаНДФЛ</constants>
   <commonForms>CommonForm.ВыборСтиля</commonForms>
+  <commonForms>CommonForm.НачальнаяСтраницаАдминистратора</commonForms>
+  <commonForms>CommonForm.НачальнаяСтраницаБухгалтера</commonForms>
+  <commonForms>CommonForm.НачальнаяСтраницаКадровыйОтдел</commonForms>
+  <commonForms>CommonForm.НачальнаяСтраницаКладовщика</commonForms>
+  <commonForms>CommonForm.НачальнаяСтраницаМенеджераПоПродажам</commonForms>
   <commonForms>CommonForm.ПечатьДокументов</commonForms>
   <commonForms>CommonForm.ФормаВыбораПользователяИБ</commonForms>
-  <commonForms>CommonForm.ФормаГлавнаяЛевая</commonForms>
-  <commonForms>CommonForm.ФормаГлавнаяПравая</commonForms>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
   <commonForms>CommonForm.ФормаСозданияПользователя</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
@@ -113,7 +115,6 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Магазины</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
-  <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Родство</catalogs>
   <catalogs>Catalog.СвойстваНоменклатуры</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
@@ -126,6 +127,8 @@
   <documents>Document.ПодтверждениеОплаты</documents>
   <documents>Document.ПриказОтпуск</documents>
   <documents>Document.ПриказПремия</documents>
+  <documents>Document.ПриказПрием</documents>
+  <documents>Document.ПриказУвольнение</documents>
   <documents>Document.Приход</documents>
   <documents>Document.Продажа</documents>
   <documents>Document.СчетФактура</documents>
@@ -138,6 +141,7 @@
   <enums>Enum.ВидОплаты</enums>
   <enums>Enum.РежимНалогооблажения</enums>
   <enums>Enum.Роли</enums>
+  <enums>Enum.СтатусыСотрудников</enums>
   <enums>Enum.ТипОтпуска</enums>
   <reports>Report.ДвижениеНоменклатуры</reports>
   <reports>Report.ОстаткиПоМагазинам</reports>

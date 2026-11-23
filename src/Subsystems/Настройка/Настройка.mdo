@@ -7,4 +7,7 @@
   </picture>
   <content>CommonCommand.ус_ВыбратьСтиль</content>
   <content>Role.Администратор</content>
+  <content>Role.Кладовщик</content>
+  <content>Role.МенеджерПоПродажам</content>
+  <content>Role.КадровыйОтдел</content>
 </mdclass:Subsystem>

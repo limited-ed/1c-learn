@@ -21,7 +21,6 @@
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Кадры</group>
-      <commands>Catalog.Подразделения.StandardCommand.OpenList</commands>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
       <commands>Catalog.ШтатноеРасписание.StandardCommand.OpenList</commands>
       <commands>DocumentJournal.Приказы.StandardCommand.OpenList</commands>
@@ -38,7 +37,6 @@
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.Кадры</group>
-      <commands>Catalog.Подразделения.StandardCommand.OpenList</commands>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
       <commands>Catalog.ШтатноеРасписание.StandardCommand.OpenList</commands>
       <commands>DocumentJournal.Приказы.StandardCommand.OpenList</commands>

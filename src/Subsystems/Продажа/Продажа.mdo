@@ -10,7 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Продажа</picture>
   </picture>
-  <content>Role.Бухгалтер</content>
   <content>Role.МенеджерПоПродажам</content>
   <content>Role.Администратор</content>
   <content>Document.ВыдачаТовара</content>
@@ -18,4 +17,5 @@
   <content>Document.Продажа</content>
   <content>Document.СчетФактура</content>
   <content>Report.ОтчетПоПродажам</content>
+  <content>Role.Кладовщик</content>
 </mdclass:Subsystem>
