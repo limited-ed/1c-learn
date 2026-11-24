@@ -54,6 +54,7 @@
       <code xsi:type="core:StringValue">
         <value>3</value>
       </code>
+      <leading>ChartOfCalculationTypes.Начисления.ОсновноеНачисление</leading>
     </items>
     <items id="0d781f4f-a5db-435d-bc6e-bc0831d314e4">
       <name>Отпускные</name>

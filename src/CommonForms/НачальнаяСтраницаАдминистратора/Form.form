@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <items xsi:type="form:FormGroup">
     <name>ГруппаСтраница</name>
     <id>7</id>
@@ -32,7 +32,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Сотрудники.Description</segments>
+          <segments>Сотрудники.Наименование</segments>
         </dataPath>
         <extendedTooltip>
           <name>СотрудникиНаименованиеРасширеннаяПодсказка</name>
@@ -848,9 +848,131 @@
       <common>true</common>
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	Сотрудники.Ссылка КАК Ссылка,
+	Сотрудники.ПометкаУдаления КАК ПометкаУдаления,
+	Сотрудники.Код КАК Код,
+	Сотрудники.Наименование КАК Наименование,
+	Сотрудники.ТабельныйНомер КАК ТабельныйНомер,
+	Сотрудники.Должность КАК Должность,
+	Сотрудники.ДатаРождения КАК ДатаРождения,
+	Сотрудники.Телефон КАК Телефон,
+	Сотрудники.Адрес КАК Адрес,
+	Сотрудники.Подразделение КАК Подразделение,
+	Сотрудники.ИдентификаторПользователяИБ КАК ИдентификаторПользователяИБ,
+	Сотрудники.Роль КАК Роль,
+	Сотрудники.ПроцентОтПродаж КАК ПроцентОтПродаж,
+	Сотрудники.ПроцентАлиментов КАК ПроцентАлиментов,
+	Сотрудники.Статус КАК Статус,
+	Сотрудники.Руководитель КАК Руководитель,
+	Сотрудники.ПриказНаПрием КАК ПриказНаПрием,
+	Сотрудники.Дети.*,
+	Сотрудники.Предопределенный КАК Предопределенный,
+	Сотрудники.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных
+ИЗ
+	Справочник.Сотрудники КАК Сотрудники
+ГДЕ
+	Сотрудники.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыСотрудников.ПринятНаРаботу)</queryText>
       <mainTable>Catalog.Сотрудники</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Код</dataPath>
+        <field>Код</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Наименование</dataPath>
+        <field>Наименование</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Предопределенный</dataPath>
+        <field>Предопределенный</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИмяПредопределенныхДанных</dataPath>
+        <field>ИмяПредопределенныхДанных</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ТабельныйНомер</dataPath>
+        <field>ТабельныйНомер</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Должность</dataPath>
+        <field>Должность</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаРождения</dataPath>
+        <field>ДатаРождения</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Телефон</dataPath>
+        <field>Телефон</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Адрес</dataPath>
+        <field>Адрес</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Подразделение</dataPath>
+        <field>Подразделение</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИдентификаторПользователяИБ</dataPath>
+        <field>ИдентификаторПользователяИБ</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Роль</dataPath>
+        <field>Роль</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПроцентОтПродаж</dataPath>
+        <field>ПроцентОтПродаж</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПроцентАлиментов</dataPath>
+        <field>ПроцентАлиментов</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Статус</dataPath>
+        <field>Статус</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Руководитель</dataPath>
+        <field>Руководитель</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПриказНаПрием</dataPath>
+        <field>ПриказНаПрием</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Дети.Ссылка</dataPath>
+        <field>Дети.Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Дети.НомерСтроки</dataPath>
+        <field>Дети.НомерСтроки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Дети.Имя</dataPath>
+        <field>Дети.Имя</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Дети.Родство</dataPath>
+        <field>Дети.Родство</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaNestedDataSet">
+        <dataPath>Дети</dataPath>
+        <field>Дети</field>
+      </fields>
     </extInfo>
   </attributes>
   <formCommands>

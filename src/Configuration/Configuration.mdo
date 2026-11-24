@@ -97,6 +97,7 @@
   <commonCommands>CommonCommand.ус_ВыбратьСтиль</commonCommands>
   <commandGroups>CommandGroup.Кадры</commandGroups>
   <commandGroups>CommandGroup.НачислениеЗарплаты</commandGroups>
+  <constants>Constant.НаименованиеОрганизации</constants>
   <constants>Constant.РежимНалогообложения</constants>
   <constants>Constant.СтавкаНДФЛ</constants>
   <commonForms>CommonForm.ВыборСтиля</commonForms>
@@ -119,6 +120,7 @@
   <catalogs>Catalog.СвойстваНоменклатуры</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ТипыНоменклатуры</catalogs>
+  <catalogs>Catalog.ТрудовыеДоговора</catalogs>
   <catalogs>Catalog.ШтатноеРасписание</catalogs>
   <documents>Document.БольничныйЛист</documents>
   <documents>Document.ВыдачаТовара</documents>

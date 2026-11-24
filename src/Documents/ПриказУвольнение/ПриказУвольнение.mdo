@@ -50,37 +50,6 @@
     </type>
     <fillChecking>ShowError</fillChecking>
   </attributes>
-  <attributes uuid="81010f82-9305-418c-8813-9410efc15636">
-    <name>Причина</name>
-    <synonym>
-      <key>ru</key>
-      <value>Причина</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>250</length>
-      </stringQualifiers>
-    </type>
-    <fillChecking>ShowError</fillChecking>
-  </attributes>
-  <attributes uuid="76abb06d-fac9-4d04-809b-e4da8a718fc3">
-    <name>Руководитель</name>
-    <synonym>
-      <key>ru</key>
-      <value>Руководитель</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Сотрудники</types>
-    </type>
-    <fillChecking>ShowError</fillChecking>
-    <choiceParameters>
-      <name>Отбор.Руководитель</name>
-      <value xsi:type="core:BooleanValue">
-        <value>true</value>
-      </value>
-    </choiceParameters>
-  </attributes>
   <attributes uuid="93ad5394-2782-4ec0-8273-abb26a41eb1c">
     <name>Основание</name>
     <synonym>
@@ -90,9 +59,34 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>200</length>
+        <length>300</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="73ca8d62-7cbc-4b3f-962d-37dea7bfd3a8">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="87fe4fd8-9e47-466a-a223-c4616f529ed6">
     <name>ФормаДокумента</name>
@@ -102,7 +96,11 @@
     <name>ФормаПодтверждения</name>
     <usePurposes>PersonalComputer</usePurposes>
   </forms>
-  <templates uuid="3f6cbcf7-d377-42bd-9c76-c3bafd4b8c22">
+  <templates uuid="ec4733a2-0f9a-4a6b-b051-086d7ccc6d41">
     <name>ФормаТ8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма т8</value>
+    </synonym>
   </templates>
 </mdclass:Document>

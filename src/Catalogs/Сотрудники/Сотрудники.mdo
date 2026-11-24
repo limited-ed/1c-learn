@@ -109,6 +109,25 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Сотрудники.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Сотрудники.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Сотрудники.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="17a42789-e21a-4d77-bea2-a5ff99c523fa">
+    <name>ТабельныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табельный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="19829251-6d39-438d-844b-f3dbf64ec469">
     <name>Должность</name>
     <synonym>
@@ -271,6 +290,21 @@
       <types>Boolean</types>
     </type>
   </attributes>
+  <attributes uuid="ad468ca1-cbdb-4079-8165-2fecdd4e11cd">
+    <name>ПриказНаПрием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приказ на прием</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПриказПрием</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="e97ab0f0-2afb-4fb8-9a52-c1f1742269da">
     <producedTypes>
       <objectType typeId="cae887c0-3a95-44b1-ba01-0757eb2f2908" valueTypeId="8bd39873-598e-4eff-ab84-10dee0489ba8"/>
@@ -326,5 +360,14 @@
   <forms uuid="0d1f8c3a-d91f-4d1e-b5a6-a853269e4fce">
     <name>ФормаЭлемента</name>
     <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <forms uuid="077751d7-d2b0-4df6-bca2-2b87735b6e3e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
   </forms>
 </mdclass:Catalog>

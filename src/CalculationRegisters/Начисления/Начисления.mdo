@@ -16,11 +16,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <periodicity>Day</periodicity>
-  <actionPeriod>true</actionPeriod>
   <basePeriod>true</basePeriod>
-  <schedule>InformationRegister.ДанныеГрафикаРаботы</schedule>
-  <scheduleValue>InformationRegister.ДанныеГрафикаРаботы.Resource.Часы</scheduleValue>
-  <scheduleDate>InformationRegister.ДанныеГрафикаРаботы.Dimension.Дата</scheduleDate>
   <chartOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="2be47c45-365f-4926-9a61-87c1e91f238a">

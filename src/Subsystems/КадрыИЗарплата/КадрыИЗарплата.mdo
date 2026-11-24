@@ -32,4 +32,5 @@
   <content>Document.ПриказПрием</content>
   <content>Document.ПриказУвольнение</content>
   <content>Enum.СтатусыСотрудников</content>
+  <content>Catalog.ТрудовыеДоговора</content>
 </mdclass:Subsystem>
