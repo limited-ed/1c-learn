@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32e3e895-fc88-4220-a070-d02f86b3bfcc">
+  <producedTypes>
+    <selectionType typeId="0a09a3a2-1fb5-4fff-bd97-b87c177a4f68" valueTypeId="8d6b1b51-0897-4734-b063-27f55aea9615"/>
+    <listType typeId="bb2c9e6d-da1e-451e-bc04-2302bfb05258" valueTypeId="baa599fc-44d0-4fda-8b9d-83e78700f01a"/>
+    <managerType typeId="bcbb3010-5bc2-4247-9839-a985bffc28be" valueTypeId="8820388a-47c2-4cb7-a135-68f60a7c6d1f"/>
+    <recordSetType typeId="f2b06937-5144-4a4f-a140-d64171454f35" valueTypeId="e61be9e4-689a-45e9-adb2-c905fc8f7bb6"/>
+    <recordKeyType typeId="ac62038b-e16a-4174-ba5e-37fb6efe9b64" valueTypeId="af1fa190-b383-417a-863e-c3bc7bb6d260"/>
+    <recordType typeId="4d10b1eb-c2ff-448a-a7bc-7b98b4fc0c0b" valueTypeId="5756bb3e-42db-4c75-ac49-26c829d486de"/>
+  </producedTypes>
+  <name>ПеремещениеНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перемещение номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="be83b477-e8ff-4dde-9365-62b0f6d975a5">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="ed98bb28-f346-4ec8-9806-c4cd08fff211">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="dd21a278-f30f-4745-899c-7e77fa6dde5d">
+    <name>ДокументПеремещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ перемещения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Перемещение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="0b04faea-77fa-4384-9dad-39ae96f16d62">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Магазины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

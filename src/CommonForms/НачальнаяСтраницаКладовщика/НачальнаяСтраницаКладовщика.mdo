@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2eea7dd7-b53e-4be5-9092-836c4d9cd566">
+  <name>НачальнаяСтраницаКладовщика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приход и перемещения</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

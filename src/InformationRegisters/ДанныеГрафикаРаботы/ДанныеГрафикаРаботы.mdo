@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6c08798-3cf7-4fa7-903f-4ba9270e1d24">
+  <producedTypes>
+    <selectionType typeId="817d675f-7537-4140-82e7-5caade9620f8" valueTypeId="8addeabc-ae12-4f3c-af05-ca63dc7b8a7a"/>
+    <listType typeId="2ededb26-a2bf-4188-955c-b453ffe1a0d6" valueTypeId="965027e7-412a-4e45-8162-d8b49b29f83d"/>
+    <managerType typeId="7ee22052-d50e-47e6-8c4d-8f0f9a84fabd" valueTypeId="da8787cc-2420-4413-838c-c3689cf19d9a"/>
+    <recordSetType typeId="801a4663-0e6a-42bd-8169-dab99e14479f" valueTypeId="f251d755-68b9-452e-8f15-52b41ad5060e"/>
+    <recordKeyType typeId="dc3acc6c-2c79-4b1b-9b8b-9d92ff86c2c7" valueTypeId="e30ad1db-1151-44a7-aadd-bda367945384"/>
+    <recordType typeId="be6a6d3a-41ef-42b7-96a0-4f8152b146ab" valueTypeId="07653162-10b0-432b-90af-0f42d38e8e7a"/>
+    <recordManagerType typeId="bec3d4ab-07b8-4b25-ba29-23613b54cc54" valueTypeId="9d3b0ee9-d6c5-4d9d-9fd4-2a14c0a127ce"/>
+  </producedTypes>
+  <name>ДанныеГрафикаРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные графика работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a6326e79-d5e8-4351-ad5c-c05597a4e099">
+    <name>Часы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <dimensions uuid="a1e2fed8-7852-4d49-90c2-29bc1010661c">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="6b8c63b3-64ec-4d2f-9aba-493006cf64e1">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

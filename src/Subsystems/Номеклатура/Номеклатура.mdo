@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32123c61-e489-49ba-9782-3f5a3a31e646">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32123c61-e489-49ba-9782-3f5a3a31e646">
   <name>Номеклатура</name>
   <synonym>
     <key>ru</key>
@@ -7,10 +7,19 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Номенклатура</picture>
+  </picture>
   <content>Catalog.Номенклатура</content>
   <content>Document.Приход</content>
-  <content>AccumulationRegister.РегистрНакопленияНоменклатуры</content>
-  <content>ChartOfCharacteristicTypes.ДополнительныеСвойстваНоменклатуры</content>
   <content>InformationRegister.ЦеныНоменклатуры</content>
   <content>Document.Перемещение</content>
+  <content>Enum.ВидОплаты</content>
+  <content>Role.Администратор</content>
+  <content>Role.МенеджерПоПродажам</content>
+  <content>Role.Кладовщик</content>
+  <content>Report.ДвижениеНоменклатуры</content>
+  <content>Report.ОстаткиПоМагазинам</content>
+  <content>Report.ПоступлениеНоменклатуры</content>
+  <content>DataProcessor.ЗагрузкаЦенНоменклатуры</content>
 </mdclass:Subsystem>

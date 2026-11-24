@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b36e1da-c045-4fa1-98ca-d6feb0793fea">
+  <producedTypes>
+    <objectType typeId="50bb49ab-43ce-4d3d-b2ba-67bb041dea76" valueTypeId="51feaa02-b324-4b48-b420-a14612c12ee1"/>
+    <managerType typeId="d41d6b74-fabf-4ef3-babc-7ea4b6d5963e" valueTypeId="3f5426d0-4f21-4a98-8378-9f521203bac8"/>
+  </producedTypes>
+  <name>ЗагрузкаЦенНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка цен номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаЦенНоменклатуры.Form.Форма</defaultForm>
+  <attributes uuid="783df2c9-3a1f-49f1-9534-1279f0642171">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+  </attributes>
+  <forms uuid="ab3218ff-4b0c-4987-a7ea-d32d6c4246ca">
+    <name>Форма</name>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

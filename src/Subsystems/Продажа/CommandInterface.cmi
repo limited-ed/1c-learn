@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelCreate</group>
+      <commands>Document.Продажа.StandardCommand.Create</commands>
+      <commands>Document.ПодтверждениеОплаты.StandardCommand.Create</commands>
+      <commands>Document.СчетФактура.StandardCommand.Create</commands>
+      <commands>Document.ВыдачаТовара.StandardCommand.Create</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.Продажа.StandardCommand.OpenList</commands>
+      <commands>Document.ПодтверждениеОплаты.StandardCommand.OpenList</commands>
+      <commands>Document.СчетФактура.StandardCommand.OpenList</commands>
+      <commands>Document.ВыдачаТовара.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

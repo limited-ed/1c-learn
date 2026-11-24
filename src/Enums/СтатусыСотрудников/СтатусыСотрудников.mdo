@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="009c787f-e33d-49b8-8836-824da34f33ac">
+  <producedTypes>
+    <refType typeId="5a36ccb7-7218-419d-bb5e-cbf82688f39c" valueTypeId="c8a4d723-2d07-4144-8c92-ba3a4d13c436"/>
+    <listType typeId="1cf63031-b2ae-4576-a9f9-b9085be53022" valueTypeId="a3c31cbf-4feb-4e11-ad69-de5ab4972bb0"/>
+    <managerType typeId="bb361aa6-1c56-4d0d-88f9-39eb0eb2e902" valueTypeId="b7030748-c25f-4f52-9011-3df456d33536"/>
+  </producedTypes>
+  <name>СтатусыСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы сотрудников</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="194754d2-68fb-4e48-88c3-28dfe5ff38eb">
+    <name>ПринятНаРаботу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят на работу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7f4f35c5-6e26-4c47-83de-532f70818f84">
+    <name>Уволен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уволен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

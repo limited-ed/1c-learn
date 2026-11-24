@@ -26,6 +26,7 @@
     </functionality>
   </usedMobileApplicationFunctionalities>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <splash/>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
@@ -39,21 +40,22 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.Кадры</subsystems>
+  <subsystems>Subsystem.КадрыИЗарплата</subsystems>
   <subsystems>Subsystem.Настройка</subsystems>
   <subsystems>Subsystem.Номеклатура</subsystems>
-  <subsystems>Subsystem.Подсистема</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <subsystems>Subsystem.Продажа</subsystems>
   <subsystems>Subsystem.Справочники</subsystems>
   <styles>Style.Античный</styles>
   <styles>Style.Белый</styles>
   <styles>Style.Зелёный</styles>
-  <styles>Style.Инфостарт</styles>
   <styles>Style.Классический</styles>
   <styles>Style.Красный</styles>
   <styles>Style.Малиновый</styles>
   <styles>Style.Молодёжный</styles>
   <styles>Style.Нэжный</styles>
   <styles>Style.Розовый</styles>
+  <styles>Style.Сероголубой</styles>
   <styles>Style.Серый</styles>
   <styles>Style.Синий</styles>
   <styles>Style.Телеграм</styles>
@@ -62,35 +64,104 @@
   <commonPictures>CommonPicture.Античный</commonPictures>
   <commonPictures>CommonPicture.Белый</commonPictures>
   <commonPictures>CommonPicture.Зелёный</commonPictures>
-  <commonPictures>CommonPicture.Инфостарт</commonPictures>
+  <commonPictures>CommonPicture.Кадры</commonPictures>
   <commonPictures>CommonPicture.Классический</commonPictures>
   <commonPictures>CommonPicture.Красный</commonPictures>
   <commonPictures>CommonPicture.Малиновый</commonPictures>
   <commonPictures>CommonPicture.Молодёжный</commonPictures>
+  <commonPictures>CommonPicture.Настройки</commonPictures>
+  <commonPictures>CommonPicture.Номенклатура</commonPictures>
   <commonPictures>CommonPicture.Нэжный</commonPictures>
-  <commonPictures>CommonPicture.ОбщаяКартинка</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.ПечатьВсех</commonPictures>
+  <commonPictures>CommonPicture.ПечатьОдного</commonPictures>
+  <commonPictures>CommonPicture.Продажа</commonPictures>
   <commonPictures>CommonPicture.Розовый</commonPictures>
+  <commonPictures>CommonPicture.Сероголубой</commonPictures>
   <commonPictures>CommonPicture.Серый</commonPictures>
   <commonPictures>CommonPicture.Синий</commonPictures>
+  <commonPictures>CommonPicture.Справочники</commonPictures>
   <commonPictures>CommonPicture.Телеграм</commonPictures>
   <commonPictures>CommonPicture.Фиолетовый</commonPictures>
   <commonPictures>CommonPicture.Черный</commonPictures>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Бухгалтер</roles>
+  <roles>Role.КадровыйОтдел</roles>
+  <roles>Role.Кладовщик</roles>
+  <roles>Role.МенеджерПоПродажам</roles>
+  <commonModules>CommonModule.ВозвратИзРезерва</commonModules>
+  <commonModules>CommonModule.МодульПечати</commonModules>
+  <commonModules>CommonModule.МодульФункций</commonModules>
+  <commonModules>CommonModule.РасчетЗарплаты</commonModules>
+  <scheduledJobs>ScheduledJob.ВозвратИзРезерва</scheduledJobs>
   <commonCommands>CommonCommand.ус_ВыбратьСтиль</commonCommands>
-  <commonForms>CommonForm.ус_ФормаВыбораСтиля</commonForms>
+  <commandGroups>CommandGroup.Кадры</commandGroups>
+  <commandGroups>CommandGroup.НачислениеЗарплаты</commandGroups>
+  <constants>Constant.НаименованиеОрганизации</constants>
+  <constants>Constant.РежимНалогообложения</constants>
+  <constants>Constant.СтавкаНДФЛ</constants>
+  <commonForms>CommonForm.ВыборСтиля</commonForms>
+  <commonForms>CommonForm.НачальнаяСтраницаАдминистратора</commonForms>
+  <commonForms>CommonForm.НачальнаяСтраницаБухгалтера</commonForms>
+  <commonForms>CommonForm.НачальнаяСтраницаКадровыйОтдел</commonForms>
+  <commonForms>CommonForm.НачальнаяСтраницаКладовщика</commonForms>
+  <commonForms>CommonForm.НачальнаяСтраницаМенеджераПоПродажам</commonForms>
+  <commonForms>CommonForm.ПечатьДокументов</commonForms>
+  <commonForms>CommonForm.ФормаВыбораПользователяИБ</commonForms>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <commonForms>CommonForm.ФормаСозданияПользователя</commonForms>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ГрафикиРаботы</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Магазины</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
-  <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Родство</catalogs>
   <catalogs>Catalog.СвойстваНоменклатуры</catalogs>
-  <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ТипыНоменклатуры</catalogs>
+  <catalogs>Catalog.ТрудовыеДоговора</catalogs>
   <catalogs>Catalog.ШтатноеРасписание</catalogs>
+  <documents>Document.БольничныйЛист</documents>
+  <documents>Document.ВыдачаТовара</documents>
+  <documents>Document.НачислениеЗарплаты</documents>
   <documents>Document.Перемещение</documents>
+  <documents>Document.ПодтверждениеОплаты</documents>
+  <documents>Document.ПриказОтпуск</documents>
+  <documents>Document.ПриказПремия</documents>
+  <documents>Document.ПриказПрием</documents>
+  <documents>Document.ПриказУвольнение</documents>
   <documents>Document.Приход</documents>
   <documents>Document.Продажа</documents>
+  <documents>Document.СчетФактура</documents>
+  <documents>Document.ТабельРабочегоВремени</documents>
+  <documents>Document.УдержаниеЗаПорчу</documents>
+  <documentJournals>DocumentJournal.Приказы</documentJournals>
+  <enums>Enum.ВидГрафикаРаботы</enums>
+  <enums>Enum.ВидДоговора</enums>
+  <enums>Enum.ВидКонтрагента</enums>
+  <enums>Enum.ВидОплаты</enums>
+  <enums>Enum.РежимНалогооблажения</enums>
+  <enums>Enum.Роли</enums>
+  <enums>Enum.СтатусыСотрудников</enums>
+  <enums>Enum.ТипОтпуска</enums>
+  <reports>Report.ДвижениеНоменклатуры</reports>
+  <reports>Report.ОстаткиПоМагазинам</reports>
+  <reports>Report.ОтчетПоПродажам</reports>
+  <reports>Report.ПоступлениеНоменклатуры</reports>
+  <reports>Report.РасчетныйЛист</reports>
+  <dataProcessors>DataProcessor.АвтоматическийРасчетЗарплаты</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаЦенНоменклатуры</dataProcessors>
+  <informationRegisters>InformationRegister.ДанныеГрафикаРаботы</informationRegisters>
   <informationRegisters>InformationRegister.ЗначениеСвойстНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
-  <accumulationRegisters>AccumulationRegister.РегистрНакопленияНоменклатуры</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВыдачаНоменклатуры</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.НакопленияНоменклатуры</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПеремещениеНоменклатуры</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РезервНоменклатуры</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеСвойстваНоменклатуры</chartsOfCharacteristicTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.Начисления</calculationRegisters>
+  <calculationRegisters>CalculationRegister.Удержания</calculationRegisters>
 </mdclass:Configuration>

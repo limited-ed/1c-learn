@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4dc70586-caf5-4047-afbc-f87fd83c27be">
+  <producedTypes>
+    <objectType typeId="336b3b3d-165a-43ec-b855-be3e6482be50" valueTypeId="a4ee6e9c-ad53-433c-8a93-2b4ea324f92a"/>
+    <refType typeId="4e624a65-e7a8-4db5-b4a8-ac67cf36bf8c" valueTypeId="102625eb-643f-4613-a32d-46e6477d73f7"/>
+    <selectionType typeId="23fc5842-bd4e-4088-bf54-792a1fc33b8e" valueTypeId="b30ad4bf-3a0b-445c-a74d-b582fcf165c7"/>
+    <listType typeId="a41cb30a-b8e7-4260-bc58-758cdd35b552" valueTypeId="81cc5813-b7c7-4ec1-9984-1b53871a4713"/>
+    <managerType typeId="cd84443d-3048-4ff0-ad4a-012f8fb635d6" valueTypeId="31edc689-0ad6-4bd3-a48e-d01760e2dd20"/>
+  </producedTypes>
+  <name>ТрудовыеДоговора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трудовые договора</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТрудовыеДоговора.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТрудовыеДоговора.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ce15940b-55d1-4cd4-96be-d7a8aa645353">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dd048ef5-b2ea-4396-a077-4b1329f43c1f">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

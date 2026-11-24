@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1267646a-43bd-4d4e-af1c-a2ca15ee16f5">
+  <producedTypes>
+    <objectType typeId="b7d49ddf-f9ba-4c68-95df-8dc3e371f64f" valueTypeId="1a827c23-04f9-49d5-9d89-26825edf1ea0"/>
+    <refType typeId="8ebc78c8-1835-4f5f-a849-268cc047e0f5" valueTypeId="40805654-d360-488e-ac15-bc34a05a7edd"/>
+    <selectionType typeId="8959e4d6-e522-47a1-b95c-c6bb70d14a8b" valueTypeId="ac935b03-ef1d-43b2-97cf-b5302488e156"/>
+    <listType typeId="80036939-92a4-493c-91a2-c1c0830150e3" valueTypeId="23f606d1-d04b-4e42-9a96-d6e7162b72bb"/>
+    <managerType typeId="965f9570-6b8f-4463-98ac-8967cff72587" valueTypeId="44d742b5-8bb5-418c-806e-b2c8c21b50c0"/>
+  </producedTypes>
+  <name>СчетФактура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счет-фактура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.Продажа</basedOn>
+  <basedOn>Document.ПодтверждениеОплаты</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СчетФактура.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.СчетФактура.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c1f02564-ca24-4e6e-a259-7f49777557d8">
+    <name>ДокументПродажа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ продажи</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Продажа</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="10c678d9-43c7-4cac-8374-7992b3033f9b">
+    <name>ДокументПодтверждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение оплаты</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПодтверждениеОплаты</types>
+    </type>
+  </attributes>
+  <attributes uuid="c145a15d-ef63-4d42-9109-e519d1365934">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+  </attributes>
+  <attributes uuid="7f677d20-a812-4978-88b2-ba6160bbfa03">
+    <name>СтавкаНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НДС, %</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="59f647cb-0b11-4800-b0b9-3f5a5e7b6156">
+    <name>СуммаБезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма без НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="b6cd2da5-437d-4ce6-b4cb-b460a0cb75f4">
+    <name>СуммаНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="17d0a780-4e6e-48b0-9f33-799f63600672">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма с НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <forms uuid="c90e17ab-52d4-4f18-8b66-3d7a91e0c214">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <forms uuid="d55b02e8-81c6-4a39-9f70-6c18d4b2a907">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <tabularSections uuid="b824400d-a749-4656-bc6e-6869580c3217">
+    <producedTypes>
+      <objectType typeId="6b6bbd05-683b-49fb-b9e3-336266de6df5" valueTypeId="d710bfd6-5b0b-4695-bc80-8a1298b949b7"/>
+      <rowType typeId="11d0a85d-a4d3-4597-a86e-1c7a282ee072" valueTypeId="b3cd65c6-83eb-4273-8fe0-9712aa01ce30"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="3c8d5b75-9e7a-4c47-865c-21439b2240a0">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <fillChecking>ShowError</fillChecking>
+    </attributes>
+    <attributes uuid="b8e185b4-8e0c-416a-8140-70970fb2230b">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <fillChecking>ShowError</fillChecking>
+    </attributes>
+    <attributes uuid="0a05c1f9-f5c0-4da9-b14e-d8fa7632fd63">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена с НДС</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="7c0caf6f-fc5b-45c9-9589-302c2fa9d839">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма с НДС</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="aad31777-8535-4e1e-b0ee-683c5cab745b">
+      <name>СтавкаНДС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ставка НДС, %</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="e4a91c20-6d18-4b77-9c31-0f5e8a21b6d4">
+      <name>СуммаНДС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма НДС</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="f12c8e55-3a90-4d6b-a7e2-91b04c77d508">
+      <name>СуммаБезНДС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма без НДС</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+  </tabularSections>
+  <templates uuid="a73f90d1-24eb-4c85-b612-8e05f3a9d441">
+    <name>СчетФактура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

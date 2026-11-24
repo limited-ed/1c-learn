@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3836c27-33bf-482d-91aa-3a46136e1d3d">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3836c27-33bf-482d-91aa-3a46136e1d3d">
   <name>Настройка</name>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Настройки</picture>
+  </picture>
   <content>CommonCommand.ус_ВыбратьСтиль</content>
+  <content>Role.Администратор</content>
+  <content>Role.Кладовщик</content>
+  <content>Role.МенеджерПоПродажам</content>
+  <content>Role.КадровыйОтдел</content>
 </mdclass:Subsystem>

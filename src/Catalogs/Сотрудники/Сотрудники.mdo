@@ -99,7 +99,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -107,7 +107,27 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Сотрудники.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Сотрудники.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Сотрудники.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="17a42789-e21a-4d77-bea2-a5ff99c523fa">
+    <name>ТабельныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табельный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="19829251-6d39-438d-844b-f3dbf64ec469">
     <name>Должность</name>
     <synonym>
@@ -186,7 +206,7 @@
       <value>Подразделение</value>
     </synonym>
     <type>
-      <types>CatalogRef.Подразделения</types>
+      <types>CatalogRef.Магазины</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -203,6 +223,81 @@
     </synonym>
     <type>
       <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a9345fa1-e1a4-4549-84df-08af2c209051">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Роли</types>
+    </type>
+  </attributes>
+  <attributes uuid="0d69dd59-66d6-401d-9b48-20fff5bccdfb">
+    <name>ПроцентОтПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент от продаж</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="89a8e9bd-8475-41e6-988a-83ce424b163e">
+    <name>ПроцентАлиментов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент алиментов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="18073aa6-d9f0-48ce-bb98-4c46dff93cbd">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыСотрудников</types>
+    </type>
+  </attributes>
+  <attributes uuid="1441db2c-491f-4d6d-8ba5-d4b13a88932d">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
+  <attributes uuid="ad468ca1-cbdb-4079-8165-2fecdd4e11cd">
+    <name>ПриказНаПрием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приказ на прием</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПриказПрием</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -258,6 +353,19 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0d1f8c3a-d91f-4d1e-b5a6-a853269e4fce">
+    <name>ФормаЭлемента</name>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <forms uuid="077751d7-d2b0-4df6-bca2-2b87735b6e3e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
